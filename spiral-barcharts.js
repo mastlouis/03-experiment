@@ -4,7 +4,7 @@
 // TODO dots.csv
 // TODO dots on spiral bars
 
-d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Pie-Charts/data.csv", function (data) {
+d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/data.csv", function (data) {
   var width = 500,
     height = 500,
     start = 0,
@@ -70,82 +70,9 @@ d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Pie-Charts/dat
 
     // yScale for the bar height
     var yScale = d3.scaleLinear()
-      .domain([0, d3.max(someData, function (d) {
-        return d.value;
-      })])
+      .domain([0, 25])
       .range([0, (r / numSpirals) - 30]);
 
-    // for (let i = 0; i < N; i++) {
-    //   // d = data[row]
-    //   svg.append('rect')
-
-    //     .attr("x", function (d, i) {
-    //       d = data[row]
-    //       // currentDate.setDate(currentDate.getDate() + i);
-    //       var linePer = timeScale(currentDate.setDate(currentDate.getDate() + i)),
-    //         posOnLine = path.node().getPointAtLength(linePer),
-    //         angleOnLine = path.node().getPointAtLength(linePer - barWidth);
-
-    //       d.linePer = linePer; // % distance are on the spiral
-    //       d.x = posOnLine.x; // x postion on the spiral
-    //       d.y = posOnLine.y; // y position on the spiral
-
-    //       d.a = (Math.atan2(angleOnLine.y, angleOnLine.x) * 180 / Math.PI) - 90; //angle at the spiral position
-
-    //       return d.x;
-    //     })
-    //     .attr("y", function (d) {
-    //       d = data[row]
-    //       return d.y;
-    //     })
-    //     .attr("width", function (d) {
-    //       d = data[row]
-    //       return barWidth;
-    //     })
-    //     .attr("height", function (d) {
-    //       d = data[row]
-    //       console
-    //       return yScale(d[i]);
-    //     })
-    //     .style("fill", 'none')
-    //     .style("stroke", "black")
-    //     .attr("transform", function (d) {
-    //       d = data[row]
-    //       return "rotate(" + d.a + "," + d.x + "," + d.y + ")"; // rotate the bar
-    //     });
-
-    // }
-    // svg.selectAll("rect")
-    //   .data(someData)
-    //   .enter()
-    //   .append("rect")
-    //   .attr("x", function (d, i) {
-
-    //     var linePer = timeScale(currentDate.setDate(currentDate.getDate() + i)),
-    //       posOnLine = path.node().getPointAtLength(linePer),
-    //       angleOnLine = path.node().getPointAtLength(linePer - barWidth);
-
-    //     d.linePer = linePer; // % distance are on the spiral
-    //     d.x = posOnLine.x; // x postion on the spiral
-    //     d.y = posOnLine.y; // y position on the spiral
-    //     d.a = (Math.atan2(angleOnLine.y, angleOnLine.x) * 180 / Math.PI) - 90; //angle at the spiral position
-
-    //     return d.x;
-    //   })
-    //   .attr("y", function (d) {
-    //     return d.y;
-    //   })
-    //   .attr("width", function (d) {
-    //     return barWidth;
-    //   })
-    //   .attr("height", function (d, i) {
-    //     return yScale(d[i]);
-    //   })
-    //   .style("fill", 'none')
-    //   .style("stroke", "black")
-    //   .attr("transform", function (d) {
-    //     return "rotate(" + d.a + "," + d.x + "," + d.y + ")"; // rotate the bar
-    //   });
     svg.selectAll("rect")
       .data(someData)
       .enter()
@@ -168,10 +95,10 @@ d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Pie-Charts/dat
         return d.y;
       })
       .attr("width", function (d) {
-        return barWidth/2;
+        return barWidth / 1.2;
       })
       .attr("height", function (d) {
-        return yScale(d.value)/2;
+        return yScale(d.value);
       })
       .style("fill", 'none')
       .style("stroke", "black")
@@ -179,6 +106,38 @@ d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Pie-Charts/dat
         return "rotate(" + d.a + "," + d.x + "," + d.y + ")"; // rotate the bar
       });
 
+      
+    svg.selectAll("circle")
+    .data(someData)
+    .enter()
+    .append("circle")
+    .attr("cx", function (d, i) {
+      var linePer = timeScale(d.date),
+        posOnLine = path.node().getPointAtLength(linePer),
+        angleOnLine = path.node().getPointAtLength(linePer - barWidth);
+
+      d.linePer = linePer; // % distance are on the spiral
+      d.x = posOnLine.x; // x postion on the spiral
+      d.y = posOnLine.y; // y position on the spiral
+
+      d.a = (Math.atan2(angleOnLine.y, angleOnLine.x) * 180 / Math.PI) - 90; //angle at the spiral position
+
+      return d.x + 10;
+      // }
+    })
+    .attr("cy", function (d) {
+      return d.y;
+    })
+    .attr("r", 8)
+    .style("fill", function(d, i){
+      if (i == markedBar1 || i == markedBar2) {
+        return 'black'
+      }
+      return 'none'
+    })
+    // .attr("transform", function (d) {
+    //   return "rotate(" + d.a + "," + d.x + "," + d.y + ")"; // rotate the bar
+    // });
     var tooltip = d3.select("#chart")
       .append('div')
       .attr('class', 'tooltip');
@@ -188,5 +147,8 @@ d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Pie-Charts/dat
     tooltip.append('div')
       .attr('class', 'value');
 
+    svg.append('circle')
+      .attr('r', 8)
+      .attr('cx',)
   })
 })

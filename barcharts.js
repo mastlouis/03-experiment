@@ -10,7 +10,7 @@ var svg = d3.select("body").append("svg")
   .attr("transform",
     "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Pie-Charts/data.csv", function (data) {
+d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/data.csv", function (data) {
   let numBars = 10
   let row = 1
   let max = 25
