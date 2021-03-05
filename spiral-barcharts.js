@@ -1,8 +1,5 @@
-// file:///C:/Users/imoge/OneDrive/Documents/GitHub/03-experiment/index.html
-
-// TODO incorporate data
-// TODO dots.csv
-// TODO dots on spiral bars
+// Sources:
+// https://bl.ocks.org/arpitnarechania/027e163073864ef2ac4ceb5c2c0bf616
 
 d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/data.csv", function (data) {
   var width = 500,
@@ -21,9 +18,7 @@ d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/dat
       return numSpirals * Math.PI * r;
     };
 
-    // used to assign nodes color by group
     var r = d3.min([width, height]) / 2 - 40;
-
     var radius = d3.scaleLinear()
       .domain([start, end])
       .range([40, r]);
@@ -40,7 +35,6 @@ d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/dat
       .curve(d3.curveCardinal)
       .angle(theta)
       .radius(radius);
-
     var path = svg.append("path")
       .datum(points)
       .attr("id", "spiral")
@@ -133,14 +127,5 @@ d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/dat
         }
         return 'none'
       })
-
-    var tooltip = d3.select("#chart")
-      .append('div')
-      .attr('class', 'tooltip');
-
-    tooltip.append('div')
-      .attr('class', 'date');
-    tooltip.append('div')
-      .attr('class', 'value');
   })
 })
