@@ -106,7 +106,6 @@ d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/dat
         return "rotate(" + d.a + "," + d.x + "," + d.y + ")"; // rotate the bar
       });
 
-
     svg.selectAll("circle")
       .data(someData)
       .enter()
@@ -123,18 +122,18 @@ d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/dat
         d.a = (Math.atan2(angleOnLine.y, angleOnLine.x) * 180 / Math.PI) - 90; //angle at the spiral position
 
         return d.x + 0;
-        // }
       })
       .attr("cy", function (d) {
         return d.y;
       })
-      .attr("r", 8)
+      .attr("r", 4)
       .style("fill", function (d, i) {
         if (i == markedBar1 || i == markedBar2) {
           return 'black'
         }
         return 'none'
       })
+
     var tooltip = d3.select("#chart")
       .append('div')
       .attr('class', 'tooltip');
