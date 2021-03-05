@@ -120,7 +120,7 @@ d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/dat
       .attr("cy", function (d) {
         return d.y;
       })
-      .attr("r", 4)
+      .attr("r", 2)
       .style("fill", function (d, i) {
         if (i == markedBar1 || i == markedBar2) {
           return 'black'
