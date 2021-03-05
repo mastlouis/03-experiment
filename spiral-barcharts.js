@@ -111,7 +111,7 @@ d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/dat
       .enter()
       .append("circle")
       .attr("cx", function (d, i) {
-        var linePer = timeScale(d.date),
+        var linePer = timeScale(d.date) - spiralLength/N/2 +1,
           posOnLine = path.node().getPointAtLength(linePer),
           angleOnLine = path.node().getPointAtLength(linePer - barWidth);
 
