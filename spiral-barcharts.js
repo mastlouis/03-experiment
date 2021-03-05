@@ -106,38 +106,35 @@ d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/dat
         return "rotate(" + d.a + "," + d.x + "," + d.y + ")"; // rotate the bar
       });
 
-      
+
     svg.selectAll("circle")
-    .data(someData)
-    .enter()
-    .append("circle")
-    .attr("cx", function (d, i) {
-      var linePer = timeScale(d.date),
-        posOnLine = path.node().getPointAtLength(linePer),
-        angleOnLine = path.node().getPointAtLength(linePer - barWidth);
+      .data(someData)
+      .enter()
+      .append("circle")
+      .attr("cx", function (d, i) {
+        var linePer = timeScale(d.date),
+          posOnLine = path.node().getPointAtLength(linePer),
+          angleOnLine = path.node().getPointAtLength(linePer - barWidth);
 
-      d.linePer = linePer; // % distance are on the spiral
-      d.x = posOnLine.x; // x postion on the spiral
-      d.y = posOnLine.y; // y position on the spiral
+        d.linePer = linePer; // % distance are on the spiral
+        d.x = posOnLine.x; // x postion on the spiral
+        d.y = posOnLine.y; // y position on the spiral
 
-      d.a = (Math.atan2(angleOnLine.y, angleOnLine.x) * 180 / Math.PI) - 90; //angle at the spiral position
+        d.a = (Math.atan2(angleOnLine.y, angleOnLine.x) * 180 / Math.PI) - 90; //angle at the spiral position
 
-      return d.x + 10;
-      // }
-    })
-    .attr("cy", function (d) {
-      return d.y;
-    })
-    .attr("r", 8)
-    .style("fill", function(d, i){
-      if (i == markedBar1 || i == markedBar2) {
-        return 'black'
-      }
-      return 'none'
-    })
-    // .attr("transform", function (d) {
-    //   return "rotate(" + d.a + "," + d.x + "," + d.y + ")"; // rotate the bar
-    // });
+        return d.x + 0;
+        // }
+      })
+      .attr("cy", function (d) {
+        return d.y;
+      })
+      .attr("r", 8)
+      .style("fill", function (d, i) {
+        if (i == markedBar1 || i == markedBar2) {
+          return 'black'
+        }
+        return 'none'
+      })
     var tooltip = d3.select("#chart")
       .append('div')
       .attr('class', 'tooltip');
@@ -146,9 +143,5 @@ d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/dat
       .attr('class', 'date');
     tooltip.append('div')
       .attr('class', 'value');
-
-    svg.append('circle')
-      .attr('r', 8)
-      .attr('cx',)
   })
 })
