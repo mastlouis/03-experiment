@@ -1,3 +1,6 @@
+// TODO use randomly generated data
+// TODO return correct answer + datapoints + marked bars?
+// TODO run in react
 
 var margin = { top: 20, right: window.innerWidth / 10, bottom: 80, left: window.innerWidth / 10 },
   width = window.innerWidth - margin.left - margin.right,
@@ -10,12 +13,12 @@ var svg = d3.select("body").append("svg")
   .attr("transform",
     "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/data.csv", function (data) {
+// d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/data.csv", function (data) {
   let numBars = 10
   let row = 1
   let max = 25
 
-  d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/dots.csv", function (dots) {
+  // d3.csv("https://raw.githubusercontent.com/mastlouis/03-experiment/Bar-Charts/dots.csv", function (dots) {
     let markedBar1 = dots[row][0]
     let markedBar2 = dots[row][1]
 
