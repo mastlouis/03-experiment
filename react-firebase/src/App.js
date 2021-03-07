@@ -2,6 +2,125 @@ import React, { Component } from 'react';
 import './App.css';
 import fire from './firebase';
 
+const PAGES = {
+  welcome: 'Welcome',
+  experiment: 'Experiment',
+  about: 'About',
+  survey: 'Survey',
+}
+
+function uuidv4() {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+    return v.toString(16);
+  });
+}
+
+const SESSION_ID = uuidv4();
+
+console.log(uuidv4());
+class Page extends Component{
+  
+  constructor(props){
+    super(props);
+    this.state={
+      page: PAGES.welcome,
+      demographic: null,
+      dataset: [],
+    }
+  }
+
+  handleSurvey = response => {
+    this.setState({demographic: response});
+  }
+
+  handleDataset = dataset => {
+    this.setState({dataset: dataset});
+  }
+
+  setPage = newPage => {
+    this.setState({page: newPage});
+  }
+
+  renderContent() {
+    switch(this.state.page) {
+      case PAGES.welcome:
+        return <Welcome setPage={this.setPage}/>
+      case PAGES.experiment:
+        return (
+          <Experiment 
+            dataset={this.state.dataset}
+            handleDataset={this.handleDataset}
+          />
+        );
+      case PAGES.survey:
+        return (
+          <Survey 
+            demographic={this.state.demographic}
+            handleSurvey={this.handleSurvey}
+          />
+        );
+      case PAGES.about:
+        return <About/>
+      default:
+        return (
+          <div>
+            <h2>Lost</h2>
+            <p>Please select a page from the top bar to continue.</p>
+          </div>
+        )
+    }
+  }
+
+  render() {
+    return(
+      <div>
+        <div className="top-bar">
+          <div className="top-bar-left">
+            <ul className="menu">
+              <li className="menu-text">CS 584 Data Vis Project 3</li>
+              <li><button className="button" onClick={() => this.setPage(PAGES.welcome)}>Welcome</button></li>
+              <li><button className="button" onClick={() => this.setPage(PAGES.experiment)}>Experiment</button></li>
+              <li><button className="button" onClick={() => this.setPage(PAGES.survey)}>Survey</button></li>
+              <li><button className="button" onClick={() => this.setPage(PAGES.about)}>About</button></li>
+            </ul>
+          </div>
+        </div>
+        <div className="page-container">
+          {this.renderContent()}
+        </div>
+      </div>
+    )
+  }
+}
+
+function About() {
+  return (
+    <div>
+      <h2>About</h2>
+      <p>This project was created by [names] for [class].</p>
+    </div>
+  )
+}
+
+function Welcome(props) {
+  return (
+    <div>
+      <h2>Welcome!</h2>
+      <p>
+        Welcome to our Data Vis Project! Thank you for taking a few minutes of 
+        your day to help us out. This page is a brief guide to the steps of our
+        experiment.
+      </p>
+      <h3>Step 1: Survey</h3>
+      <p>Please complete a brief survey about</p>
+      <button type="button" className="button" onClick={() => props.setPage(PAGES.survey)}>
+        Take Survey
+      </button>
+    </div>
+  )
+}
+
 class Experiment extends Component{
   constructor(props) {
     super(props);
@@ -14,9 +133,6 @@ class Experiment extends Component{
     this.state = {
       trials: [firstTrial],
       select: 'Experiment',
-      survey: {
-        familiarity: "little",
-      }
     };
   }
 
@@ -32,75 +148,27 @@ class Experiment extends Component{
     this.setState({
       trials: trials,
       select: 'Experiment',
-      survey: this.state.survey,
     })
   }
 
   handleChange=e=> {
     this.setState({
-      trials: this.state.trials,
       select: e.target.value,
-      survey: this.state.survey,
     })
-  }
-
-  submitSurvey = response => {
-    this.setState({
-      trials: this.state.trials,
-      select: this.state.select,
-      survey: response,
-    })
-  }
-
-  renderContent() {
-    switch (this.state.select) {
-      case 'Experiment':
-        return (
-          <div>
-            <h2>Current Experiment</h2>
-            <VisForm 
-              high={this.state.trials[this.state.trials.length - 1].high}
-              low={this.state.trials[this.state.trials.length - 1].low}
-              nextTrial={this.nextTrial}
-              key={this.state.trials.length - 1}
-            />
-          </div>
-        )
-      case 'About':
-        return (
-          <div>
-            <h2>About</h2>
-            <p>
-              This experiment was developed for Graduate Data Vis. The assignment
-              is based on <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-              this</a> impressive-sounding research paper.
-            </p>
-          </div>
-        )
-      case 'Survey':
-        return (
-          <div>
-            <h2>Survey</h2>
-            <p>Please answer the following questions.</p>
-            <Survey submitSurvey={this.submitSurvey}/>
-          </div>
-        )
-    }
   }
 
   render() {
-    console.log(this.state.trials)
-    console.log(`length: ${this.state.trials.length}`)
     return(
       <div id="experiment">
-        <h2>Select View</h2>
-        <select value={this.state.value} onChange={this.handleChange}>
-          <option value="Experiment">Experiment</option>
-          <option value="Survey">Survey</option>
-          <option value="About">About</option>
-        </select>
-
-        {this.renderContent()}
+        <h2>Current Experiment</h2>
+        <div>
+          <VisForm 
+            high={this.state.trials[this.state.trials.length - 1].high}
+            low={this.state.trials[this.state.trials.length - 1].low}
+            nextTrial={this.nextTrial}
+            key={this.state.trials.length - 1}
+          />
+        </div>
         <br/>
         <br/>
         <h2>Past Experiments</h2>
@@ -133,6 +201,7 @@ class Survey extends Component {
   render() {
     return (
       <div>
+      <h2>Survey</h2>
         <label>
           How familiar would you say you are with data visualizations?
           <select value={this.state.familiarity} onChange={this.handleChangeFamiliarity}>
@@ -144,7 +213,7 @@ class Survey extends Component {
             </option>
           </select>
         </label>
-        <button type="submit" onClick={() => this.props.submitSurvey(this.state)}>Submit</button>
+        <button type="submit" className="button" onClick={() => this.props.handleSurvey(this.state)}>Submit</button>
       </div>
     )
   }
@@ -201,7 +270,8 @@ class VisForm extends Component{
           <p>{this.state.message}</p>
           <br/>
           <button 
-            type="button" 
+            type="button"
+            className="button" 
             onClick={() => this.props.nextTrial(this.state.guess)}
           >Next Trial</button>
         </div>
@@ -219,27 +289,16 @@ class VisForm extends Component{
           onChange={this.handleChange}
         ></input>
         <br/>
-        <button type="submit" onClick={this.handleSubmit}>Submit Guess</button>
+        <button 
+          type="submit" 
+          className="button"
+          onClick={this.handleSubmit}
+        >Submit Guess</button>
         {this.renderError()}
       </div>
     );
   }
 }
-
-// class VisField extends Component {
-//   render() {
-//     return (
-//       <div>
-//         <p>{this.props.question}</p>
-//         <input 
-//           type="number"
-//           placeholder="50"
-//           onChange={this.props.handleChange}
-//         ></input>
-//       </div>
-//     )
-//   }
-// }
 
 class App extends Component{
 
@@ -265,11 +324,13 @@ class App extends Component{
 
   render(){
     return (
-      <div className="App-header">
-        <Experiment/>
-        {/* <input type="text" id="inputText" onChange={this.changeText}></input> */}
-        {/* <br/> */}
-        {/* <button onClick={this.submit}>Submit Data</button> */}
+      <div>
+        {/* <div className="App-header"> */}
+          {/* <input type="text" id="inputText" onChange={this.changeText}></input> */}
+          {/* <br/> */}
+          {/* <button onClick={this.submit}>Submit Data</button> */}
+        {/* </div> */}
+        <Page/>
       </div>
     );
   }
