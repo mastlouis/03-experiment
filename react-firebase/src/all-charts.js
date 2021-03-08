@@ -58,7 +58,7 @@ function fillChart(chartType, chartData, indices) {
             .value(function (d) { return d.value; }).sort(null);
         // I looked it up, and apparently they removed d3.entries in v6
         // https://rdrr.io/cran/d3r/f/inst/www/d3/v6/CHANGES.md
-        let data_ready = pie(Object.entries(data))
+        let data_ready = pie(d3.entries(data))
     
         // shape helper to build arcs:
         let arcGenerator = d3.arc()
