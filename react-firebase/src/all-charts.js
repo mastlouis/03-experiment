@@ -3,7 +3,7 @@
  *============================================================================================================**/
 import * as d3 from 'd3';
 console.log(`D3 version: ${d3}`)
-debugger;
+//debugger;
 
 const margin = { top: 20, right: window.innerWidth / 10, bottom: 80, left: window.innerWidth / 10, radius: 40 },
     width = window.innerWidth - margin.left - margin.right,

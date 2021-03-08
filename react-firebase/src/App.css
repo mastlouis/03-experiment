@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+.curPage{
+  background-color: #14679e !important;
+  color: #fefefe;
+}
+
+.menu .button{
+  cursor: initial;
+}
+
+.menu .button:hover{
+  background-color: initial;
+}
+
+.menu .button:focus{
+  background-color: initial;
+  outline: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import fire from './firebase';
-import {fillChart, gen_data, CHARTS, indices_to_compare, DATAPOINT_COUNTS} from './all-charts';
+import { fillChart, gen_data, CHARTS, indices_to_compare, DATAPOINT_COUNTS } from './all-charts';
 import { shuffle } from 'd3-array';
 
 const PAGES = {
@@ -19,7 +19,7 @@ const TRIALS = [
 ]
 
 function uuidv4() {
-  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
     var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
     return v.toString(16);
   });
@@ -41,11 +41,11 @@ function renderChartTarget() {
   return <div id="svgcontainer"></div>
 }
 
-class Page extends Component{
-  
-  constructor(props){
+class Page extends Component {
+
+  constructor(props) {
     super(props);
-    this.state={
+    this.state = {
       page: PAGES.welcome,
       demographic: null,
       dataset: [],
@@ -53,25 +53,26 @@ class Page extends Component{
   }
 
   handleSurvey = response => {
-    this.setState({demographic: response});
+    this.setState({ demographic: response });
     this.setPage(PAGES.experiment);
   }
 
   handleDataset = dataset => {
-    this.setState({dataset: dataset});
+    this.setState({ dataset: dataset });
   }
 
   setPage = newPage => {
-    this.setState({page: newPage});
+    this.setState({ page: newPage });
+    document.getElementById(newPage).classList.add('curPage');
   }
 
   renderContent() {
-    switch(this.state.page) {
+    switch (this.state.page) {
       case PAGES.welcome:
-        return <Welcome setPage={this.setPage}/>
+        return <Welcome setPage={this.setPage} />
       case PAGES.experiment:
         return (
-          <Experiment 
+          <Experiment
             dataset={this.state.dataset}
             handleDataset={this.handleDataset}
             demographics={this.state.demographic}
@@ -80,17 +81,17 @@ class Page extends Component{
         );
       case PAGES.survey:
         return (
-          <Survey 
+          <Survey
             demographic={this.state.demographic}
             handleSurvey={this.handleSurvey}
           />
         );
       case PAGES.about:
-        return <About/>
+        return <About />
       case PAGES.thanks:
-        return <Thanks 
-                setPage={this.setPage}
-              />
+        return <Thanks
+          setPage={this.setPage}
+        />
       default:
         return (
           <div>
@@ -102,16 +103,16 @@ class Page extends Component{
   }
 
   render() {
-    return(
+    return (
       <div>
         <div className="top-bar">
           <div className="top-bar-left">
             <ul className="menu">
               <li className="menu-text">CS 573 Data Vis Project 3</li>
-              <li><button className="button" onClick={() => this.setPage(PAGES.welcome)}>Welcome</button></li>
-              <li><button className="button" onClick={() => this.setPage(PAGES.survey)}>Background Survey</button></li>
-              <li><button className="button" onClick={() => this.setPage(PAGES.experiment)}>Experiment</button></li>
-              <li><button className="button" onClick={() => this.setPage(PAGES.about)}>About</button></li>
+              <li><button id="Welcome" className="" class="button curPage">Welcome</button></li>
+              <li><button id="Survey" className="button">Background Survey</button></li>
+              <li><button id="Experiment" className="button">Experiment</button></li>
+              <li><button id="Thanks" className="button">Thanks!</button></li>
             </ul>
           </div>
         </div>
@@ -137,7 +138,7 @@ function Welcome(props) {
     <div>
       <h2>Welcome!</h2>
       <p>
-        Welcome to our Data Vis Project! Thank you for taking a few minutes of 
+        Welcome to our Data Vis Project! Thank you for taking a few minutes of
         your day to help us out. This page is a brief guide to the steps of our
         experiment.
       </p>
@@ -150,7 +151,7 @@ function Welcome(props) {
   )
 }
 
-class Experiment extends Component{
+class Experiment extends Component {
   setPage;
   constructor(props) {
     super(props);
@@ -158,7 +159,7 @@ class Experiment extends Component{
     let type = order[0];
     let points = gen_data(DATAPOINT_COUNTS[type]);
     let markedIndices = indices_to_compare(DATAPOINT_COUNTS[type]);
-    let {high, low} = this.getHighLow(points, markedIndices);
+    let { high, low } = this.getHighLow(points, markedIndices);
     this.setPage = props.setPage;
 
     this.state = {
@@ -182,7 +183,7 @@ class Experiment extends Component{
     let type = this.state.order[trials.length - 1];
     let points = gen_data(DATAPOINT_COUNTS[type]);
     let markedIndices = indices_to_compare(DATAPOINT_COUNTS[type]);
-    let {high, low} = this.getHighLow(points, markedIndices)
+    let { high, low } = this.getHighLow(points, markedIndices)
 
     trials.push({
       guess: null,
@@ -195,37 +196,37 @@ class Experiment extends Component{
     this.setState({
       trials: trials,
     })
-    if(trials.length === 16){
+    if (trials.length === 2) {
       this.uploadToFirebase(guess);
       this.setPage(PAGES.thanks);
     }
   }
 
-  uploadToFirebase=e=>{
+  uploadToFirebase = e => {
     let dataRef = fire.database().ref('data').orderByKey();
     fire.database().ref('data').push(this.state);
   }
 
   getHighLow = (array, indices) => {
-    if (array[indices.random_idx] > array[indices.other_idx]){
-      return {high: array[indices.random_idx], low: array[indices.other_idx]};
+    if (array[indices.random_idx] > array[indices.other_idx]) {
+      return { high: array[indices.random_idx], low: array[indices.other_idx] };
     }
-    return {high: array[indices.other_idx], low: array[indices.random_idx]};
+    return { high: array[indices.other_idx], low: array[indices.random_idx] };
   }
 
-  handleChange=e=> {
+  handleChange = e => {
     this.setState({
       select: e.target.value,
     })
   }
 
   render() {
-    return(
+    return (
       <div id="experiment">
         <h2>Experiment</h2>
         <p>Trial {this.state.trials.length} out of {this.state.order.length}</p>
         <div>
-          <VisForm 
+          <VisForm
             high={this.state.trials[this.state.trials.length - 1].high}
             low={this.state.trials[this.state.trials.length - 1].low}
             type={this.state.trials[this.state.trials.length - 1].type}
@@ -235,11 +236,11 @@ class Experiment extends Component{
             key={this.state.trials.length - 1}
           />
         </div>
-        <br/>
-        <br/>
+        <br />
+        <br />
         <h2>Past Experiments</h2>
         {this.state.trials.map((trial, index) => {
-          return(
+          return (
             <p key={index}>
               High: {trial.high} Low: {trial.low} Guess: {trial.guess}
             </p>
@@ -261,25 +262,25 @@ class Survey extends Component {
     }
   }
 
-  handleChangeFamiliarity=e=> {
+  handleChangeFamiliarity = e => {
     this.setState({
       familiarity: e.target.value,
     })
   }
-  
-  handleChangeEducation=e=> {
+
+  handleChangeEducation = e => {
     this.setState({
       education: e.target.value,
     })
   }
-  
-  handleChangeStats=e=> {
+
+  handleChangeStats = e => {
     this.setState({
       stats: e.target.value,
     })
   }
-  
-  handleChangeField=e=> {
+
+  handleChangeField = e => {
     this.setState({
       field: e.target.value,
     })
@@ -292,80 +293,80 @@ class Survey extends Component {
   render() {
     return (
       <div>
-      <h2>Background Survey</h2>
-      <form>
-      <label>
-          What is your current/highest education level?
+        <h2>Background Survey</h2>
+        <form>
+          <label>
+            What is your current/highest education level?
           <select value={this.state.education} onChange={this.handleChangeEducation}>
-          <option value="No Formal Education">
-              No Formal Education
+              <option value="No Formal Education">
+                No Formal Education
             </option>
-            <option value="High School">
-              High School
+              <option value="High School">
+                High School
             </option>
-            <option value="Bacherlors Degree (BA)">
-              Bachelors Degree (BA)
+              <option value="Bacherlors Degree (BA)">
+                Bachelors Degree (BA)
             </option>
-            <option value="Bachelors Degree (BS)">
-              Bachelors Degree (BS)
+              <option value="Bachelors Degree (BS)">
+                Bachelors Degree (BS)
             </option>
-            <option value="Vocational Training">
-              Vocational Training
+              <option value="Vocational Training">
+                Vocational Training
             </option>
-            <option value="Masters Degree">
-              Masters Degree
+              <option value="Masters Degree">
+                Masters Degree
             </option>
-            <option value="PhD/Doctorate">
-              PhD/Doctorate
+              <option value="PhD/Doctorate">
+                PhD/Doctorate
             </option>
-          </select>
-        </label>
-        <label>
-          How familiar are you with statistics?
+            </select>
+          </label>
+          <label>
+            How familiar are you with statistics?
           <select value={this.state.stats} onChange={this.handleChangeStats}>
-          <option value="No Formal Stats Training">
-              No Formal Stats Training
+              <option value="No Formal Stats Training">
+                No Formal Stats Training
             </option>
-            <option value="Some Basic Statistics Training">
-              Some Basic Statistics Training
+              <option value="Some Basic Statistics Training">
+                Some Basic Statistics Training
             </option>
-            <option value="A lot of statistics experience">
-              A lot of statistics experience
+              <option value="A lot of statistics experience">
+                A lot of statistics experience
             </option>
-            <option value="I use statistics everyday">
-              I use statistics everyday
+              <option value="I use statistics everyday">
+                I use statistics everyday
             </option>
-          </select>
-        </label>
-        <label>
-          How familiar would you say you are with data visualizations?
+            </select>
+          </label>
+          <label>
+            How familiar would you say you are with data visualizations?
           <select value={this.state.familiarity} onChange={this.handleChangeFamiliarity}>
-            <option value="Not familiar">
-              Not familiar
+              <option value="Not familiar">
+                Not familiar
             </option>
-            <option value="Passing Knowledge">
-              Passing Knowledge
+              <option value="Passing Knowledge">
+                Passing Knowledge
             </option>
-            <option value="Knowledgable">
-              Knowledgable
+              <option value="Knowledgable">
+                Knowledgable
             </option>
-            <option value="Expert">
-              Expert
+              <option value="Expert">
+                Expert
             </option>
-          </select>
-        </label>
-        <label>
-          What is your area of study or field you work in?
+            </select>
+          </label>
+          <label>
+            What is your area of study or field you work in?
           <input type="text" onChange={this.handleChangeField}></input>
-        </label>
-        <button type="submit" className="button" onClick={() => this.props.handleSurvey(this.state)} disabled={!this.fieldIsValid()}>Submit</button>
-      </form>
+          </label>
+          <button type="submit" className="button" onClick={() => this.props.handleSurvey(this.state)} disabled={!this.fieldIsValid()}>Submit</button>
+        </form>
       </div>
     )
   }
 }
 
-class VisForm extends Component{
+class VisForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -374,15 +375,15 @@ class VisForm extends Component{
     }
   }
 
-  handleChange=e=> {
+  handleChange = e => {
     this.setState({
       guess: e.target.value,
       message: this.state.message,
     });
   }
 
-  handleSubmit=e=>{
-    if (this.guessIsValid()){
+  handleSubmit = e => {
+    if (this.guessIsValid()) {
       this.props.nextTrial(this.state.guess)
     }
   }
@@ -401,20 +402,21 @@ class VisForm extends Component{
   }
 
   render() {
-    return(
+    return (
       <div className="vis-form">
         {renderChartTarget()}
-        <p>True Value: {this.props.low / this.props.high}</p>
-        <input 
+        {/* <p>True Value: {this.props.low / this.props.high}</p> */}
+        <p>What percentage of the larger section is the smaller section? (Answer as a decimal Example if the small section is 50% the size of the large section, you would answer 0.5)</p>
+        <input
           type="number"
           min={0}
           max={1}
           step={0.1}
           onChange={this.handleChange}
         ></input>
-        <br/>
-        <button 
-          type="submit" 
+        <br />
+        <button
+          type="submit"
           className="button"
           disabled={!this.guessIsValid()}
           onClick={this.handleSubmit}
@@ -432,42 +434,46 @@ function Thanks(props) {
       <p>
         Thanks for taking our survey! If you want to participate again, press here:
       </p>
-      <button type="button" className="button" onClick={() => props.setPage(PAGES.survey)}>
+      <button type="button" className="button" onClick={() => {
+        document.getElementById('Experiment').classList.remove('curPage');
+        document.getElementById('Thanks').classList.remove('curPage');
+        props.setPage(PAGES.survey)
+      }}>
         Complete Again
       </button>
     </div>
   )
 }
 
-class App extends Component{
+class App extends Component {
 
-  state={
-    inputText : "",
+  state = {
+    inputText: "",
     test: "test"
   }
 
-  changeText=e=>{
+  changeText = e => {
     this.setState({
-      inputText : e.target.value
+      inputText: e.target.value
     });
   }
 
-  uploadToFirebase=e=>{
+  uploadToFirebase = e => {
     let dataRef = fire.database().ref('data').orderByKey();
     fire.database().ref('data').push(this.state);
     this.setState({
     });
   }
 
-  render(){
+  render() {
     return (
       <div>
         {/* <div className="App-header"> */}
-          {/* <input type="text" id="inputText" onChange={this.changeText}></input> */}
-          {/* <br/> */}
-          {/* <button onClick={this.submit}>Submit Data</button> */}
+        {/* <input type="text" id="inputText" onChange={this.changeText}></input> */}
+        {/* <br/> */}
+        {/* <button onClick={this.submit}>Submit Data</button> */}
         {/* </div> */}
-        <Page/>
+        <Page />
       </div>
     );
   }
