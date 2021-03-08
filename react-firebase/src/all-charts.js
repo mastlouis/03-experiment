@@ -2,6 +2,8 @@
  *                               Charts
  *============================================================================================================**/
 import * as d3 from 'd3';
+console.log(`D3 version: ${d3}`)
+debugger;
 
 const margin = { top: 20, right: window.innerWidth / 10, bottom: 80, left: window.innerWidth / 10, radius: 40 },
     width = window.innerWidth - margin.left - margin.right,
@@ -88,7 +90,7 @@ function fillChart(chartType, chartData, indices) {
             .enter()
             .append('text')
             .text(function (d) {
-                if (parseInt(d.data.key) === indices.random_idx || parseInt(d.data.key) === indices.other_idx) {
+                if (parseInt(d.data.key) == indices.random_idx || parseInt(d.data.key) == indices.other_idx) {
                     return '.'
                 }
             })
@@ -281,12 +283,18 @@ function fillChart(chartType, chartData, indices) {
 
 function indices_to_compare(ndatapoints) {
     while (true) {
-        let random_idx = d3.randomInt(0, ndatapoints - 1)()
-        let other_idx = (random_idx + d3.randomInt(1, ndatapoints - 1)()) % ndatapoints
+        let random_idx = randInt(0, ndatapoints - 1)
+        let other_idx = (random_idx + randInt(1, ndatapoints - 1)) % ndatapoints
+        // let random_idx = d3.randomInt(0, ndatapoints - 1)()
+        // let other_idx = (random_idx + d3.randomInt(1, ndatapoints - 1)()) % ndatapoints
         if (Math.abs(random_idx - other_idx) > MIN_BAR_GAP) {
             return { random_idx, other_idx };
         }
     }
+}
+
+function randInt(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min
 }
 
 function gen_data(ndatapoints) {
