@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import fire from './firebase';
+import {fillChart, gen_data, CHARTS, indices_to_compare, DATAPOINT_COUNTS} from './all-charts';
+import { shuffle } from 'd3-array';
 
 const PAGES = {
   welcome: 'Welcome',
@@ -9,6 +11,12 @@ const PAGES = {
   survey: 'Survey',
 }
 
+const TRIALS = [
+  CHARTS.bar, CHARTS.bar, CHARTS.bar, CHARTS.bar, CHARTS.bar,
+  CHARTS.pie, CHARTS.pie, CHARTS.pie, CHARTS.pie, CHARTS.pie,
+  CHARTS.spiral, CHARTS.spiral, CHARTS.spiral, CHARTS.spiral, CHARTS.spiral,
+]
+
 function uuidv4() {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
     var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
@@ -16,9 +24,22 @@ function uuidv4() {
   });
 }
 
-const SESSION_ID = uuidv4();
+function shuffleArray(array) {
+  let arr = array.slice()
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr.slice()
+}
 
-console.log(uuidv4());
+const SESSION_ID = uuidv4();
+console.log(`Session ID: ${SESSION_ID}`);
+
+function renderChartTarget() {
+  return <div id="svgcontainer"></div>
+}
+
 class Page extends Component{
   
   constructor(props){
@@ -124,31 +145,52 @@ function Welcome(props) {
 class Experiment extends Component{
   constructor(props) {
     super(props);
-    let firstNumbers = generateHighLow()
-    let firstTrial = {
-      guess: null,
-      high: firstNumbers.high,
-      low: firstNumbers.low,
-    };
+    const order = shuffleArray(TRIALS);
+    let type = order[0];
+    let points = gen_data(DATAPOINT_COUNTS[type]);
+    let markedIndices = indices_to_compare(DATAPOINT_COUNTS[type]);
+    let {high, low} = this.getHighLow(points, markedIndices)
+
     this.state = {
-      trials: [firstTrial],
-      select: 'Experiment',
+      order: order,
+      trials: [{
+        guess: null,
+        high: high,
+        low: low,
+        type: type,
+        markedIndices: markedIndices,
+        points: points,
+      }],
     };
   }
 
   nextTrial = guess => {
     const trials = this.state.trials.slice();
     trials[trials.length - 1].guess = guess;
-    let nextNumbers = generateHighLow();
+
+    let type = this.state.order[trials.length - 1];
+    let points = gen_data(DATAPOINT_COUNTS[type]);
+    let markedIndices = indices_to_compare(DATAPOINT_COUNTS[type]);
+    let {high, low} = this.getHighLow(points, markedIndices)
+
     trials.push({
       guess: null,
-      high: nextNumbers.high,
-      low: nextNumbers.low,
+      high: high,
+      low: low,
+      type: type,
+      markedIndices: markedIndices,
+      points: points,
     });
     this.setState({
       trials: trials,
-      select: 'Experiment',
     })
+  }
+
+  getHighLow = (array, indices) => {
+    if (array[indices.random_idx] > array[indices.other_idx]){
+      return {high: array[indices.random_idx], low: array[indices.other_idx]};
+    }
+    return {high: array[indices.other_idx], low: array[indices.random_idx]};
   }
 
   handleChange=e=> {
@@ -160,11 +202,15 @@ class Experiment extends Component{
   render() {
     return(
       <div id="experiment">
-        <h2>Current Experiment</h2>
+        <h2>Experiment</h2>
+        <p>Trial {this.state.trials.length} out of {this.state.order.length}</p>
         <div>
           <VisForm 
             high={this.state.trials[this.state.trials.length - 1].high}
             low={this.state.trials[this.state.trials.length - 1].low}
+            type={this.state.trials[this.state.trials.length - 1].type}
+            markedIndices={this.state.trials[this.state.trials.length - 1].markedIndices}
+            points={this.state.trials[this.state.trials.length - 1].points}
             nextTrial={this.nextTrial}
             key={this.state.trials.length - 1}
           />
@@ -219,24 +265,6 @@ class Survey extends Component {
   }
 }
 
-function generateHighLow() {
-  let high = 0;
-  let low = 0;
-  while ((high - low) < 0.1) {
-    high = Math.floor((Math.random() * 100) + 1);
-    low = Math.floor((Math.random() * 100) + 1);
-    if (low > high){
-      let temp = low;
-      low = high;
-      high = temp;
-    }
-  }
-  return {
-    high: high,
-    low: low
-  };
-}
-
 class VisForm extends Component{
   constructor(props) {
     super(props);
@@ -254,46 +282,42 @@ class VisForm extends Component{
   }
 
   handleSubmit=e=>{
-    let newMessage = this.state.guess ? `You were off by ${
-      Math.abs((this.props.low / this.props.high) - this.state.guess)
-    }` : `Please enter a guess.`;
-    this.setState({
-      guess: this.state.guess,
-      message: newMessage,
-    });
+    if (this.guessIsValid()){
+      this.props.nextTrial(this.state.guess)
+    }
+  }
+
+  guessIsValid = () => {
+    return this.state.guess && (0 < this.state.guess && this.state.guess <= 1);
+  }
+
+  componentDidMount() {
+    fillChart(this.props.type, this.props.points, this.props.markedIndices);
   }
 
   renderError() {
-    if (this.state.message) {
-      return (
-        <div>
-          <p>{this.state.message}</p>
-          <br/>
-          <button 
-            type="button"
-            className="button" 
-            onClick={() => this.props.nextTrial(this.state.guess)}
-          >Next Trial</button>
-        </div>
-      )
-    }
+    // return this.guessIsValid() ? null : <p>Please enter a valid guess before continuing.</p>
     return null;
   }
 
   render() {
     return(
       <div className="vis-form">
+        {renderChartTarget()}
         <p>True Value: {this.props.low / this.props.high}</p>
         <input 
           type="number"
+          min={0}
+          max={1}
           onChange={this.handleChange}
         ></input>
         <br/>
         <button 
           type="submit" 
           className="button"
+          disabled={!this.guessIsValid()}
           onClick={this.handleSubmit}
-        >Submit Guess</button>
+        >Next</button>
         {this.renderError()}
       </div>
     );

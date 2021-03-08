@@ -22,3 +22,9 @@ code {
 .page-container {
   padding: 2em;
 }
+
+#svgcontainer {
+  display: block;
+  background-color: white; 
+  width: 100%;
+}
