@@ -9,6 +9,7 @@ const PAGES = {
   experiment: 'Experiment',
   about: 'About',
   survey: 'Survey',
+  thanks: 'Thanks'
 }
 
 const TRIALS = [
@@ -53,6 +54,7 @@ class Page extends Component{
 
   handleSurvey = response => {
     this.setState({demographic: response});
+    this.setPage(PAGES.experiment);
   }
 
   handleDataset = dataset => {
@@ -72,6 +74,8 @@ class Page extends Component{
           <Experiment 
             dataset={this.state.dataset}
             handleDataset={this.handleDataset}
+            demographics={this.state.demographic}
+            setPage={this.setPage}
           />
         );
       case PAGES.survey:
@@ -83,6 +87,10 @@ class Page extends Component{
         );
       case PAGES.about:
         return <About/>
+      case PAGES.thanks:
+        return <Thanks 
+                setPage={this.setPage}
+              />
       default:
         return (
           <div>
@@ -99,10 +107,10 @@ class Page extends Component{
         <div className="top-bar">
           <div className="top-bar-left">
             <ul className="menu">
-              <li className="menu-text">CS 584 Data Vis Project 3</li>
+              <li className="menu-text">CS 573 Data Vis Project 3</li>
               <li><button className="button" onClick={() => this.setPage(PAGES.welcome)}>Welcome</button></li>
+              <li><button className="button" onClick={() => this.setPage(PAGES.survey)}>Background Survey</button></li>
               <li><button className="button" onClick={() => this.setPage(PAGES.experiment)}>Experiment</button></li>
-              <li><button className="button" onClick={() => this.setPage(PAGES.survey)}>Survey</button></li>
               <li><button className="button" onClick={() => this.setPage(PAGES.about)}>About</button></li>
             </ul>
           </div>
@@ -143,15 +151,18 @@ function Welcome(props) {
 }
 
 class Experiment extends Component{
+  setPage;
   constructor(props) {
     super(props);
     const order = shuffleArray(TRIALS);
     let type = order[0];
     let points = gen_data(DATAPOINT_COUNTS[type]);
     let markedIndices = indices_to_compare(DATAPOINT_COUNTS[type]);
-    let {high, low} = this.getHighLow(points, markedIndices)
+    let {high, low} = this.getHighLow(points, markedIndices);
+    this.setPage = props.setPage;
 
     this.state = {
+      demographics: props.demographics,
       order: order,
       trials: [{
         guess: null,
@@ -184,6 +195,15 @@ class Experiment extends Component{
     this.setState({
       trials: trials,
     })
+    if(trials.length === 16){
+      this.uploadToFirebase(guess);
+      this.setPage(PAGES.thanks);
+    }
+  }
+
+  uploadToFirebase=e=>{
+    let dataRef = fire.database().ref('data').orderByKey();
+    fire.database().ref('data').push(this.state);
   }
 
   getHighLow = (array, indices) => {
@@ -234,7 +254,10 @@ class Survey extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      familiarity: '',
+      familiarity: 'No Formal Education',
+      education: 'No Formal Stats Training',
+      stats: 'Not familiar',
+      field: ''
     }
   }
 
@@ -243,23 +266,100 @@ class Survey extends Component {
       familiarity: e.target.value,
     })
   }
+  
+  handleChangeEducation=e=> {
+    this.setState({
+      education: e.target.value,
+    })
+  }
+  
+  handleChangeStats=e=> {
+    this.setState({
+      stats: e.target.value,
+    })
+  }
+  
+  handleChangeField=e=> {
+    this.setState({
+      field: e.target.value,
+    })
+  }
+
+  fieldIsValid = () => {
+    return this.state.field !== "" && this.state.field !== undefined;
+  }
 
   render() {
     return (
       <div>
-      <h2>Survey</h2>
-        <label>
-          How familiar would you say you are with data visualizations?
-          <select value={this.state.familiarity} onChange={this.handleChangeFamiliarity}>
-            <option value="Little">
-              Data Vis? Sorry, vis isn't my type.
+      <h2>Background Survey</h2>
+      <form>
+      <label>
+          What is your current/highest education level?
+          <select value={this.state.education} onChange={this.handleChangeEducation}>
+          <option value="No Formal Education">
+              No Formal Education
             </option>
-            <option value="A lot">
-              I was born with eyes. I've been vizzing all my life!
+            <option value="High School">
+              High School
+            </option>
+            <option value="Bacherlors Degree (BA)">
+              Bachelors Degree (BA)
+            </option>
+            <option value="Bachelors Degree (BS)">
+              Bachelors Degree (BS)
+            </option>
+            <option value="Vocational Training">
+              Vocational Training
+            </option>
+            <option value="Masters Degree">
+              Masters Degree
+            </option>
+            <option value="PhD/Doctorate">
+              PhD/Doctorate
             </option>
           </select>
         </label>
-        <button type="submit" className="button" onClick={() => this.props.handleSurvey(this.state)}>Submit</button>
+        <label>
+          How familiar are you with statistics?
+          <select value={this.state.stats} onChange={this.handleChangeStats}>
+          <option value="No Formal Stats Training">
+              No Formal Stats Training
+            </option>
+            <option value="Some Basic Statistics Training">
+              Some Basic Statistics Training
+            </option>
+            <option value="A lot of statistics experience">
+              A lot of statistics experience
+            </option>
+            <option value="I use statistics everyday">
+              I use statistics everyday
+            </option>
+          </select>
+        </label>
+        <label>
+          How familiar would you say you are with data visualizations?
+          <select value={this.state.familiarity} onChange={this.handleChangeFamiliarity}>
+            <option value="Not familiar">
+              Not familiar
+            </option>
+            <option value="Passing Knowledge">
+              Passing Knowledge
+            </option>
+            <option value="Knowledgable">
+              Knowledgable
+            </option>
+            <option value="Expert">
+              Expert
+            </option>
+          </select>
+        </label>
+        <label>
+          What is your area of study or field you work in?
+          <input type="text" onChange={this.handleChangeField}></input>
+        </label>
+        <button type="submit" className="button" onClick={() => this.props.handleSurvey(this.state)} disabled={!this.fieldIsValid()}>Submit</button>
+      </form>
       </div>
     )
   }
@@ -309,6 +409,7 @@ class VisForm extends Component{
           type="number"
           min={0}
           max={1}
+          step={0.1}
           onChange={this.handleChange}
         ></input>
         <br/>
@@ -324,6 +425,20 @@ class VisForm extends Component{
   }
 }
 
+function Thanks(props) {
+  return (
+    <div>
+      <h2>Thanks!</h2>
+      <p>
+        Thanks for taking our survey! If you want to participate again, press here:
+      </p>
+      <button type="button" className="button" onClick={() => props.setPage(PAGES.survey)}>
+        Complete Again
+      </button>
+    </div>
+  )
+}
+
 class App extends Component{
 
   state={
@@ -337,13 +452,11 @@ class App extends Component{
     });
   }
 
-  submit=e=>{
+  uploadToFirebase=e=>{
     let dataRef = fire.database().ref('data').orderByKey();
     fire.database().ref('data').push(this.state);
     this.setState({
-      inputText : ""
     });
-    document.getElementById("inputText").value="";
   }
 
   render(){
