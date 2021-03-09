@@ -21,6 +21,7 @@ code {
 
 .page-container {
   padding: 2em;
+  max-width: 600px;;
 }
 
 #svgcontainer {

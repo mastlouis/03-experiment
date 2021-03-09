@@ -49,6 +49,7 @@ class Page extends Component {
       page: PAGES.welcome,
       demographic: null,
       dataset: [],
+      sessionID: SESSION_ID,
     }
   }
 
@@ -59,6 +60,10 @@ class Page extends Component {
 
   handleDataset = dataset => {
     this.setState({ dataset: dataset });
+  }
+
+  resetData = () => {
+    this.setState({dataset: []});
   }
 
   setPage = newPage => {
@@ -91,6 +96,7 @@ class Page extends Component {
       case PAGES.thanks:
         return <Thanks
           setPage={this.setPage}
+          resetData={this.resetData}
         />
       default:
         return (
@@ -139,13 +145,13 @@ function Welcome(props) {
       <h2>Welcome!</h2>
       <p>
         Welcome to our Data Vis Project! Thank you for taking a few minutes of
-        your day to help us out. This page is a brief guide to the steps of our
-        experiment.
+        your day to help us out. This website is a replication of 
+        <a href="https://www.jstor.org/stable/2288400?seq=1">a paper on Graphical 
+        Perception by Cleaveland and McGill.</a> This is part of an assignment
+        for CS 573 Data Visualization.
       </p>
-      <h3>Step 1: Survey</h3>
-      <p>Please complete a brief survey about</p>
       <button type="button" className="button" onClick={() => props.setPage(PAGES.survey)}>
-        Take Survey
+        Get Started
       </button>
     </div>
   )
@@ -225,27 +231,15 @@ class Experiment extends Component {
       <div id="experiment">
         <h2>Experiment</h2>
         <p>Trial {this.state.trials.length} out of {this.state.order.length}</p>
-        <div>
-          <VisForm
-            high={this.state.trials[this.state.trials.length - 1].high}
-            low={this.state.trials[this.state.trials.length - 1].low}
-            type={this.state.trials[this.state.trials.length - 1].type}
-            markedIndices={this.state.trials[this.state.trials.length - 1].markedIndices}
-            points={this.state.trials[this.state.trials.length - 1].points}
-            nextTrial={this.nextTrial}
-            key={this.state.trials.length - 1}
-          />
-        </div>
-        <br />
-        <br />
-        <h2>Past Experiments</h2>
-        {this.state.trials.map((trial, index) => {
-          return (
-            <p key={index}>
-              High: {trial.high} Low: {trial.low} Guess: {trial.guess}
-            </p>
-          );
-        })}
+        <VisForm
+          high={this.state.trials[this.state.trials.length - 1].high}
+          low={this.state.trials[this.state.trials.length - 1].low}
+          type={this.state.trials[this.state.trials.length - 1].type}
+          markedIndices={this.state.trials[this.state.trials.length - 1].markedIndices}
+          points={this.state.trials[this.state.trials.length - 1].points}
+          nextTrial={this.nextTrial}
+          key={this.state.trials.length - 1}
+        />
       </div>
     )
   }
@@ -406,12 +400,13 @@ class VisForm extends Component {
       <div className="vis-form">
         {renderChartTarget()}
         {/* <p>True Value: {this.props.low / this.props.high}</p> */}
-        <p>What percentage of the larger section is the smaller section? (Answer as a decimal Example if the small section is 50% the size of the large section, you would answer 0.5)</p>
+        <p>What percentage of the larger section is the smaller section?</p>
+        <p>(Answer as a decimal Example if the small section is 50% the size of the large section, you would answer 0.5)</p>
         <input
           type="number"
           min={0}
           max={1}
-          step={0.1}
+          step={0.01}
           onChange={this.handleChange}
         ></input>
         <br />
@@ -435,9 +430,10 @@ function Thanks(props) {
         Thanks for taking our survey! If you want to participate again, press here:
       </p>
       <button type="button" className="button" onClick={() => {
-        document.getElementById('Experiment').classList.remove('curPage');
-        document.getElementById('Thanks').classList.remove('curPage');
-        props.setPage(PAGES.survey)
+        // document.getElementById('Experiment').classList.remove('curPage');
+        // document.getElementById('Thanks').classList.remove('curPage');
+        props.resetData()
+        props.setPage(PAGES.experiment)
       }}>
         Complete Again
       </button>
