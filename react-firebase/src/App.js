@@ -3,6 +3,7 @@ import './App.css';
 import fire from './firebase';
 import { fillChart, gen_data, CHARTS, indices_to_compare, DATAPOINT_COUNTS } from './all-charts';
 import { shuffle } from 'd3-array';
+import team_members from './team-members.jpg'
 
 const PAGES = {
   welcome: 'Welcome',
@@ -134,7 +135,9 @@ function About() {
   return (
     <div>
       <h2>About</h2>
-      <p>This project was created by [names] for [class].</p>
+      <p>This project was created by Imogen Cleaver-Stigum, Andrew Nolan, Matt St. Louis, and Jyalu Wu
+         for CS 573.</p>
+      <img src="team_members.jpg" alt="Picture of the team members"></img>
     </div>
   )
 }
@@ -148,8 +151,11 @@ function Welcome(props) {
         your day to help us out. This website is a replication of 
         <a href="https://www.jstor.org/stable/2288400?seq=1" rel="noopener noreferrer" target="_blank"> a paper on Graphical 
         Perception by Cleaveland and McGill.</a> This is part of an assignment
-        for CS 573 Data Visualization.
+        for CS 573 Data Visualization and was created by Imogen Cleaver-Stigum, Andrew Nolan, Matt St.
+        Louis, and Jyalu Wu.
       </p>
+      <img src={team_members} alt="Picture of the team members"></img>
+      <br></br><br></br>
       <button type="button" className="button" onClick={() => props.setPage(PAGES.survey)}>
         Get Started
       </button>
