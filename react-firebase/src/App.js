@@ -146,7 +146,7 @@ function Welcome(props) {
       <p>
         Welcome to our Data Vis Project! Thank you for taking a few minutes of
         your day to help us out. This website is a replication of 
-        <a href="https://www.jstor.org/stable/2288400?seq=1">a paper on Graphical 
+        <a href="https://www.jstor.org/stable/2288400?seq=1"> a paper on Graphical 
         Perception by Cleaveland and McGill.</a> This is part of an assignment
         for CS 573 Data Visualization.
       </p>
@@ -402,20 +402,22 @@ class VisForm extends Component {
         {/* <p>True Value: {this.props.low / this.props.high}</p> */}
         <p>What percentage of the larger section is the smaller section?</p>
         <p>(Answer as a decimal Example if the small section is 50% the size of the large section, you would answer 0.5)</p>
-        <input
-          type="number"
-          min={0}
-          max={1}
-          step={0.01}
-          onChange={this.handleChange}
-        ></input>
-        <br />
-        <button
-          type="submit"
-          className="button"
-          disabled={!this.guessIsValid()}
-          onClick={this.handleSubmit}
-        >Next</button>
+        <form>
+          <input
+            type="number"
+            min={0}
+            max={1}
+            step={0.01}
+            onChange={this.handleChange}
+          ></input>
+          <br />
+          <button
+            type="submit"
+            className="button"
+            disabled={!this.guessIsValid()}
+            onClick={this.handleSubmit}
+          >Next</button>
+        </form>
         {this.renderError()}
       </div>
     );
