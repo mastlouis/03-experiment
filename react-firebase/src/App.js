@@ -146,7 +146,7 @@ function Welcome(props) {
       <p>
         Welcome to our Data Vis Project! Thank you for taking a few minutes of
         your day to help us out. This website is a replication of 
-        <a href="https://www.jstor.org/stable/2288400?seq=1"> a paper on Graphical 
+        <a href="https://www.jstor.org/stable/2288400?seq=1" rel="noopener noreferrer" target="_blank"> a paper on Graphical 
         Perception by Cleaveland and McGill.</a> This is part of an assignment
         for CS 573 Data Visualization.
       </p>
@@ -432,8 +432,8 @@ function Thanks(props) {
         Thanks for taking our survey! If you want to participate again, press here:
       </p>
       <button type="button" className="button" onClick={() => {
-        // document.getElementById('Experiment').classList.remove('curPage');
-        // document.getElementById('Thanks').classList.remove('curPage');
+        //document.getElementById('Experiment').classList.remove('curPage');
+        document.getElementById('Thanks').classList.remove('curPage');
         props.resetData()
         props.setPage(PAGES.experiment)
       }}>
