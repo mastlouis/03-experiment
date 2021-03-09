@@ -143,6 +143,7 @@ function About() {
 }
 
 function Welcome(props) {
+  document.title = "CS 573 - Welcome"
   return (
     <div>
       <h2>Welcome!</h2>
@@ -166,6 +167,7 @@ function Welcome(props) {
 class Experiment extends Component {
   setPage;
   constructor(props) {
+    document.title = "Experiment"
     super(props);
     const order = shuffleArray(TRIALS);
     let type = order[0];
@@ -253,6 +255,7 @@ class Experiment extends Component {
 
 class Survey extends Component {
   constructor(props) {
+    document.title = "Background Survey"
     super(props);
     this.state = {
       familiarity: 'No Formal Education',
@@ -431,6 +434,7 @@ class VisForm extends Component {
 }
 
 function Thanks(props) {
+  document.title = "Thanks!"
   return (
     <div>
       <h2>Thanks!</h2>
