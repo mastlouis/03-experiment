@@ -2,16 +2,7 @@
  *                               Charts
  *============================================================================================================**/
 import * as d3 from 'd3';
-console.log(`D3 version: ${d3}`)
-//debugger;
 
-const margin = { top: 20, right: window.innerWidth / 10, bottom: 80, left: window.innerWidth / 10, radius: 40 },
-    width = window.innerWidth - margin.left - margin.right,
-    height = 600 - margin.top - margin.bottom;
-
-const svg_width = width
-
-const radius = Math.min(width, height) / 2 - margin.radius // pie radius
 
 const MIN_BAR_GAP = 1
 
@@ -28,6 +19,13 @@ const CHARTS = {
 }
 
 function fillChart(chartType, chartData, indices) {
+    const margin = { top: 20, right: window.innerWidth / 10, bottom: 80, left: window.innerWidth / 10, radius: 40 },
+        width = window.innerWidth - margin.left - margin.right,
+        height = 600 - margin.top - margin.bottom;
+    
+    const svg_width = width
+    const radius = Math.min(width, height) / 2 - margin.radius // pie radius
+
     // append the svg object to the div called 'my_dataviz'
     let svg = d3.select("#svgcontainer")
         .append("svg")
