@@ -152,7 +152,7 @@ function Welcome(props) {
         <a href="https://www.jstor.org/stable/2288400?seq=1" rel="noopener noreferrer" target="_blank"> a paper on Graphical 
         Perception by Cleaveland and McGill.</a> This is part of an assignment
         for CS 573 Data Visualization and was created by Imogen Cleaver-Stigum, Andrew Nolan, Matt St.
-        Louis, and Jyalu Wu.
+        Louis, and Jyalu Wu. For the best experience, please use a laptop or a computer instead of a mobile device.
       </p>
       <img src={team_members} alt="Picture of the team members"></img>
       <br></br><br></br>

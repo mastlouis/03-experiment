@@ -6,6 +6,8 @@ import * as d3 from 'd3';
 
 const MIN_BAR_GAP = 1
 
+
+
 const DATAPOINT_COUNTS = {
     bar: 10,
     pie: 10,
@@ -22,6 +24,8 @@ function fillChart(chartType, chartData, indices) {
     const margin = { top: 20, right: window.innerWidth / 10, bottom: 80, left: window.innerWidth / 10, radius: 40 },
         width = window.innerWidth - margin.left - margin.right,
         height = 600 - margin.top - margin.bottom;
+
+    const LEFT_MARGIN = height/2
     
     const svg_width = width
     const radius = Math.min(width, height) / 2 - margin.radius // pie radius
@@ -75,7 +79,7 @@ function fillChart(chartType, chartData, indices) {
             .attr('fill', 'white')
             .attr("stroke", "black")
             .style("stroke-width", "1px")
-            .attr("transform", "translate(" + svg_width / 2 + "," + height / 2 + ")");
+            .attr("transform", "translate(" + LEFT_MARGIN + "," + height / 2 + ")");
     
     
         // Replaced with outer function parameter
@@ -94,7 +98,7 @@ function fillChart(chartType, chartData, indices) {
             })
             .attr("transform", function (d) {
                 let coords = arcGenerator.centroid(d)
-                return "translate(" + (coords[0] + svg_width / 2) + ',' + (coords[1] + height / 2) + ")";
+                return "translate(" + (coords[0] + LEFT_MARGIN) + ',' + (coords[1] + height / 2) + ")";
             })
             .style("font-size", 40)
             
@@ -185,7 +189,7 @@ function fillChart(chartType, chartData, indices) {
             .style("fill", "none")
             .style("stroke", "none")
             .attr("transform", function (d) {
-                return "translate(" + svg_width / 2 + ',' + height / 2 + ")";
+                return "translate(" + LEFT_MARGIN + ',' + height / 2 + ")";
             })
     
         let spiralLength = path.node().getTotalLength(),
@@ -243,7 +247,7 @@ function fillChart(chartType, chartData, indices) {
             .style("fill", 'none')
             .style("stroke", "black")
             .attr("transform", function (d) {
-                return "translate(" + svg_width / 2 + ',' + height / 2 + "),rotate(" + d.a + "," + d.x + "," + d.y + ")";
+                return "translate(" + LEFT_MARGIN + ',' + height / 2 + "),rotate(" + d.a + "," + d.x + "," + d.y + ")";
             })
     
         svg.selectAll("circle")
@@ -274,7 +278,7 @@ function fillChart(chartType, chartData, indices) {
                 return 'none'
             })
             .attr("transform", function (d) {
-                return "translate(" + svg_width / 2 + ',' + height / 2 + ")";
+                return "translate(" + LEFT_MARGIN + ',' + height / 2 + ")";
             })
     }
 }
