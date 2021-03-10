@@ -265,9 +265,15 @@ function fillChart(chartType, chartData, indices) {
     
                 d.a = (Math.atan2(angleOnLine.y, angleOnLine.x) * 180 / Math.PI) - 90; //angle at the spiral position
     
+                if (i == 0){
+                    d.x = d.x + barWidth/2 - 7
+                }
                 return d.x + 0;
             })
-            .attr("cy", function (d) {
+            .attr("cy", function (d, i) {
+                if (i == 0){
+                    d.y = d.y - 7
+                }
                 return d.y;
             })
             .attr("r", 2)
