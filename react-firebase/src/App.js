@@ -299,7 +299,7 @@ class Survey extends Component {
         <h2>Background Survey</h2>
         <form>
           <label>
-            What is your current/highest education level?
+            What is the highest education level you are currently pursuing or have achieved?
           <select value={this.state.education} onChange={this.handleChangeEducation}>
               <option value="No Formal Education">
                 No Formal Education
