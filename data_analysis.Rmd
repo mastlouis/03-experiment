@@ -1,0 +1,124 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Loading the results data from our experiment/
+
+```{r}
+library(tidyverse)
+df <- read.csv("output.csv")
+df
+```
+
+Confidence Interval Graphs
+
+
+```{r}
+df %>%
+  ggplot(aes(trial.vis.type, trial.log.error)) +
+  ylab("Log Error") +
+  xlab("Vis Type") +
+  ggtitle("Confidence Intervals for Log Error by Vis Type") +
+  stat_summary(fun.data="mean_cl_boot", colour="orange", size=0.5) +
+  coord_flip()
+```
+
+
+Confidence Interval Graphs by Demographic Information
+
+```{r}
+p <- df %>%
+  mutate(Data.vis.experience = fct_relevel(Data.vis.experience, 
+            "No Formal Education", "Passing Knowledge", "Knowledgable", 
+            "Expert"))
+
+
+p %>%
+  ggplot(aes(Data.vis.experience, trial.log.error)) +
+  ylab("Log Error") +
+  xlab("Vis Experience") +
+  ggtitle("Confidence Intervals for Log Error by Vis Experience") +
+  stat_summary(fun.data="mean_cl_boot", colour="orange", size=0.5) +
+  coord_flip()
+```
+
+By Statistics Experience
+
+```{r}
+p <- df %>%
+  mutate(Statistics.Experience = fct_relevel(Statistics.Experience, 
+            "Not familiar", "Some Basic Statistics Training", 
+            "A lot of statistics experience"))
+
+
+p %>%
+  ggplot(aes(Statistics.Experience, trial.log.error)) +
+  ylab("Log Error") +
+  xlab("Statistics Experience") +
+  ggtitle("Confidence Intervals for Log Error by Statistics Experience") +
+  stat_summary(fun.data="mean_cl_boot", colour="orange", size=0.5) +
+  coord_flip()
+```
+
+By Field/Major
+
+```{r}
+
+df[!duplicated(df[,c('Field')]),]$Field
+
+
+```
+
+```{r}
+
+df$Field[df$Field =="Computer Science"   | df$Field =="cumpyewtur sighunce, babey !!!" | df$Field == "Computer science"
+               | df$Field=='cs' | df$Field=="Software engineering" | df$Field=="Computer Science student" | df$Field=="Software Engineering"
+               | df$Field=="CS" | df$Field=="Computer Science and Robotics Engineering" | df$Field=="computer science"
+               | df$Field=="Computer Science / Data Science " | df$Field== "computer industry" | df$Field=="Kompooter science in a fareen lanGeege"
+               | df$Field=="CS/IMGD" | df$Field=="Computer Science and Robotics Engineering" | df$Field=="Robotics Engineering" | df$Field == "electrical and computer engineering" | df$Field == "Inteleesting stuff"  ] = 'Technology'
+
+
+
+df$Field[df$Field =="Algebraic Number Theory Research" | df$Field=="Accounting/Finance"] = 'Math'
+
+df$Field[df$Field == "Engineering" | df$Field=="Chemical engineering"  | df$Field == "Aerospace Engineering"   | df$Field == "Aerospace Engineering "  | df$Field == "Civil Engineering"  | df$Field == "Chemical Engineering "] = 'Engineering'
+
+
+
+df$Field[df$Field == "Biology/research" | df$Field == "Biomedical Engineering" | df$Field == "Neuroscience"  | df$Field == "Pharmacy"   | df$Field =="neuroscience"  ] = 'Biology/Health'
+
+df$Field [df$Field ==  "Professor :)" ] = 'Professor'
+df$Field [df$Field ==  "Business Admin/IT"  ] = 'Business'
+
+
+```
+
+
+```{r}
+
+
+df %>%
+  ggplot(aes(Field, trial.log.error)) +
+  ylab("Log Error") +
+  xlab("Field") +
+  ggtitle("Confidence Intervals for Log Error by Field") +
+  stat_summary(fun.data="mean_cl_boot", colour="orange", size=0.5) +
+  coord_flip()
+```
+
+```{r}
+p <- df %>%
+  mutate(Education = fct_relevel(Education, 
+            "No Formal Stats Training", "High School", "Bacherlors Degree (BA)", "Bachelors Degree (BS)",
+            "Masters Degree", "PhD/Doctorate"))
+
+
+p %>%
+  ggplot(aes(Education, trial.log.error)) +
+  ylab("Log Error") +
+  xlab("Education") +
+  ggtitle("Confidence Intervals for Log Error by Education") +
+  stat_summary(fun.data="mean_cl_boot", colour="orange", size=0.5) +
+  coord_flip()
+```
