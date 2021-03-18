@@ -14,7 +14,7 @@ If you wish to view our experiment you can access it here: https://cs573-a3.web.
 
 
 ### Hypotheses
-We decided to test 3 types of hypotheses: some regarding how the type of visualization affects the accuracy of people’s perceptions, some regarding whether demographic information has any affect on this, and one about the positions on the vis of the data points in question affects perceptions. 
+We decided to test 3 types of hypotheses: three regarding how the type of visualization affects the accuracy of people’s perceptions and four regarding whether demographic information has any affect on this. 
 
 #### Hypotheses about Types of Vis
 - Users will have more accurate perceptions of relative bar/sector sizes in bar charts compared to pie charts. 
@@ -52,7 +52,7 @@ During the experiment, the user is presented with fifteen visualizations. Five o
 
 ## Results
 
-We received 45 responses to our survey, each participant received 15 questions (5 for each visualization type), for a total of 675 data points (225 per vis type). Here we will discuss the results from our experiment and survey. The result dataset can be seen in the Github repository in the file “cs573-a3-final-export.json”. There is also a .csv version of the data and a python script to convert the json to csv. The hypotheses presented above correspond to the following plots made in ggplot2 in R. All of the confidence intervals are at a 95% confidence level. 
+We received 45 responses to our survey, each participant received 15 questions (5 for each visualization type), for a total of 675 data points (225 per vis type). Here we will discuss the results from our experiment and survey. The result dataset can be seen in the Github repository in the file “cs573-a3-final-export.json” in the data folder. There is also a .csv version of the data and a python script to convert the json to csv. The hypotheses presented above correspond to the following plots made in ggplot2 in R. All of the confidence intervals are at a 95% confidence level. 
 
 Our results may also be slightly skewed due to the design of the experiment and the wording of the instructions. We received feedback from multiple (5 or more) participants that they were confused by the instructions at first. Some of them answered the first couple questions with a misunderstanding of the instructions, and then figured out what we were asking as they answered more questions. Other participants had to ask for help or additional explanation to answer any questions. This might affect our results because some of the data we collected is skewed based on misunderstandings of the instructions. It might also affect our demographic data because it is possible that people who are more familiar with this type of experiment of this field were more likely to understand the instructions. This would mean that the differences in log error types by demographic groups might be representative of their ability to understand the instructions rather than their ability to accurately perceive the proportions. 
 
