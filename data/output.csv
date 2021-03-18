@@ -1,0 +1,706 @@
+id,Education,Field,Statistics Experience,Data vis experience,trial vis type,trial reported percent,trial true percent,trial log error
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,pie,0.7,0.7065817986539806,-0.35258441940406565
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,pie,0.62,0.6689776859127894,2.3284828087734706
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,bar,0.72,0.7610488964354831,2.080620024389568
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,bar,0.83,0.8720949291800336,2.115863225864133
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,pie,0.95,0.9427318478712764,-0.23138759916260565
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,pie,0.82,0.795271183238085,1.3773357229108263
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,spiral,0.34,0.408003350823108,2.7918838776445294
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,pie,0.23,0.28890487972926254,2.5886817727406943
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,bar,0.7,0.6854410498469758,0.6607415638179799
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,spiral,0.68,0.7828242308608016,3.3795409914639074
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,spiral,0.58,0.6597374392038325,3.0176981696819256
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,bar,0.4,0.4071694955035051,-0.24819430534827938
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,spiral,0.3,0.3967127084371394,3.292232661558213
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,pie,0.68,0.7031928331683274,1.289411517603519
+-MVRjT7BeEw6OWY__qb3,High School,Computer Science,Some Basic Statistics Training,Knowledgable,bar,0.45,0.3940542401720897,2.5159081976681605
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,bar,.35,0.35353930295863367,-1.0621123953556508
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,bar,0.8,0.7824630242879237,0.9097328434288385
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,pie,.5,0.4910235096795313,0.03231110441641596
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,.4,0.43643397414035046,1.9139511191502612
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,pie,.9,0.9109639706505603,0.28853228358822985
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,.65,0.7148084573619262,2.7237432793072855
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,bar,.34,0.3543265989478913,0.6393802644237525
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,.46,0.43931589107813535,1.1331760977353271
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,bar,.6,0.6019316210030894,-1.652166103821916
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,pie,.23,0.24240461330341312,0.4493884577760102
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,pie,.22,0.22500476857878365,-0.6769715880210591
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,.9,0.9860010332608845,3.125172216382775
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,pie,.35,0.427804872309083,2.9828543814898287
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,bar,.56,0.6011853643530514,2.085267064590555
+-MVRjsxJfPun0Qxm_heq,Bachelors Degree (BS),Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,.55,0.6579315615299609,3.4486573308581043
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,bar,0.4,0.4689090289870722,2.8106287807753807
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,bar,0.75,0.6549584101372359,3.267409798140079
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,pie,0.58,0.6079874357573493,1.5478167865852146
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,pie,0.38,0.4060347739211926,1.4480960897385724
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,pie,0.73,0.5523263279632964,4.1612723669652505
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,bar,0.74,0.6241395268538206,3.5497981961783647
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,bar,0.8,0.7520755757313495,2.2979081616115815
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,bar,0.89,0.8703972454745368,1.0602379677345581
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,spiral,0.49,0.4399774094145492,2.358187792807633
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,spiral,0.89,0.8637911093368232,1.4572733419066493
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,pie,0.18,0.2534423732102319,2.9009609378803956
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,spiral,0.4,0.3715366533539839,1.5711111066105135
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,pie,0.56,0.548930458965912,0.3009485092650324
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,spiral,0.73,0.6927286227952728,1.9456592829039216
+-MVRk5RMH4FKcIj1Fios,Bachelors Degree (BS),Chemical Engineering ,Some Basic Statistics Training,Passing Knowledge,spiral,0.9,0.8853995002810304,0.6645283249523446
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,spiral,0.1,0.6369952948907681,5.750191897914475
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,spiral,0.1,0.8532229335226106,6.2373972403402815
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,bar,0.4,0.36771602339948606,1.7456235741447441
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,bar,0.46,0.5118975950818702,2.410004411569042
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,pie,0.2,0.3858549607183303,4.225775904181502
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,spiral,0.1,0.8936009891420827,6.312612518334159
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,pie,0.1,0.8181020048877641,6.168626001065855
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,bar,0.20,0.44214682427867324,4.605238439490777
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,pie,0.25,0.7971871908566963,5.7772545019732116
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,pie,0.2,0.832087804202323,5.984903291943087
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,bar,0.3,0.8245579380914685,5.7164640172897805
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,pie,0.15,0.7540303253217973,5.919531551797046
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,bar,0.35,0.7076409733635785,5.1654737325931235
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,spiral,0.1,0.6548625023631595,5.797304866654277
+-MVRknNBAPQPtNoOvArh,Bachelors Degree (BS),Chemical engineering,Some Basic Statistics Training,Passing Knowledge,spiral,0.05,0.9534461464004501,6.499361421128832
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,pie,.66,0.6791464017887463,1.0283146630105893
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,pie,.25,0.37945864560898257,3.7082826649777743
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,spiral,.75,0.5999343676251246,3.9194891345551044
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,bar,.3,0.23415326710177636,2.7462425198340554
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,spiral,.8,0.8989954974354849,3.3254655338281434
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,bar,.65,0.6746893310503874,1.3751412743955915
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,spiral,.6,0.7384621174542623,3.804385248297865
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,bar,.4,0.3809130745691108,1.0241015867230638
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,bar,.4,0.4275233319172886,1.5247322931042833
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,spiral,.6,0.6313582635649768,1.7052376176304802
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,pie,.6,0.6999385622968711,3.3389743211830436
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,spiral,.5,0.50054676349746,-2.476527571123711
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,pie,.85,0.861018639311819,0.2949752516946877
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,pie,.75,0.7171041638685738,1.7717096617131132
+-MVRm8Ka76Lz8YWnjHSc,Bachelors Degree (BS),Computer science,A lot of statistics experience,Knowledgable,pie,.9,0.9738588495401919,2.9089829002240495
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,bar,0.49,0.48438667050650386,-0.5430194778975139
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,bar,0.6,0.6332422178542373,1.786270897266068
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,pie,0.8,0.7086692256320566,3.210712629729821
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,bar,0.75,0.7753798313250817,1.4130432904622041
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,pie,0.5,0.454665739166376,2.219842601816041
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,spiral,0.8,0.9424225677770105,3.84471272098258
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,spiral,0.75,0.8284470975452783,2.9945271842749555
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,bar,0.6,0.7066437931120447,3.4315399670901425
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,bar,0.9,0.944969304664358,2.208495555676848
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,spiral,.95,0.8634150041344918,3.1347958634771698
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,spiral,0.6,0.7703182653254246,4.100710819685105
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,pie,0.3,0.2927599611377586,-0.23615693731227422
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,pie,0.25,0.2805399417262329,1.6685703718910558
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,spiral,0.5,0.6875122122276932,4.238498079459605
+-MVRonVkVNi4fvEVoHIy,Bachelors Degree (BS),Aerospace Engineering,Not familiar,No Formal Education,bar,0.9,0.9487752619074137,2.3226568153851437
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,pie,0.66,0.790136644507878,3.715746727613709
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,pie,0.25,0.19364451437327848,2.5262062024598793
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,pie,0.5,0.5594419372676815,2.60150487172743
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,spiral,0.8,0.5292505582756101,4.7655317852516506
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,bar,0.75,0.7553858176587122,-0.5916538509211894
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,spiral,0.6,0.46075469814307046,3.8124499826215685
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,spiral,1,0.926226664877964,2.907339398657509
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,pie,0.75,0.8422221287543843,3.224536250539912
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,bar,0.66,0.6832394034541458,1.2921576312221197
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,bar,0.75,0.8164518525258436,2.759195310805913
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,spiral,0.6,0.8916609972475585,4.872390454634778
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,bar,0.5,0.5258174026556831,1.4365564555046264
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,pie,1,0.9554650582973694,2.1948731855916765
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,bar,0.33,0.3389265483207071,0.025248311412295804
+-MVRqjavoCr3RBqC8e7h,Bachelors Degree (BS),Software engineering,A lot of statistics experience,Knowledgable,pie,0.66,0.8057446238091652,3.877691485692592
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,bar,.8,0.753743154702966,2.248135407434181
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,bar,.85,0.8318416715475936,0.9566758708971217
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,spiral,.7,0.7864052807293626,3.131841007728384
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,spiral,0.41,0.4730209377245404,2.684166521708202
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,bar,.4,0.36051989679316154,2.0260954700203224
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,bar,0.85,0.8721235458793885,1.224876614504026
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,pie,.7,0.7702762170093367,2.8384721400269273
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,pie,.85,0.9515865370057445,3.362281028600601
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,spiral,0.78,0.8001993224571244,1.1009320764807677
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,pie,.8,0.8561169585917682,2.5202200330520164
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,spiral,.4,0.4186157476594214,0.9902830911477091
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,bar,.45,0.4702062491718444,1.1013978964982454
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,pie,0.7,0.7766633166354984,2.9618699290840587
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,pie,.4,0.4681756825650534,2.7954694561042848
+-MVRr5-YyPkIjdX6R014,Masters Degree,cs,Some Basic Statistics Training,Passing Knowledge,bar,.9,0.8562724714817156,2.1692043882749923
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,spiral,0.8,0.7432606716021974,2.5357874298245293
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,spiral,0.5,0.5762801528343496,2.954757508893594
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,pie,0.9,0.7758021210011639,3.649016173576029
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,bar,0.95,0.9413389242562775,-0.01288643950328727
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,bar,0.6,0.5044098977397309,3.275604602780729
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,spiral,0.4,0.5756705422416023,4.145029663941697
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,spiral,0.85,0.9145369847224387,2.7178021898313895
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,bar,0.3,0.2696504716129766,1.6599030267954198
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,spiral,0.6,0.6565940378958481,2.5321682654457303
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,pie,0.8,0.9721066107195864,4.115670947698756
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,bar,0.85,0.8376734816486263,0.44111355313112116
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,bar,0.3,0.22698366837441314,2.8927083183630744
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,spiral,0.7,0.9175303071932408,4.451410979300904
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,pie,0.9,0.8299669005261043,2.8335600683188993
+-MVRrOKMNR3ykSfAUNlB,Masters Degree,Computer Science student,Some Basic Statistics Training,Knowledgable,pie,0.3,0.4488298072486769,3.907657974964453
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,pie,0.35,0.31395194825633016,1.8991002735594984
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,pie,0.2,0.2836687934780581,3.086083873650407
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,pie,1,0.8878768261588471,3.5030074076122233
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,bar,0.4,0.3827706347161712,0.8859152049358805
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,pie,0.33,0.3132988996020717,0.8440722836012698
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,pie,0.85,0.8071149277957024,2.1419255579525105
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,1,0.9794337463956886,1.1254033761558697
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,bar,0.45,0.4561720425454637,-0.4301118238501045
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,pie,0.5,0.4825269402591118,0.9048162208344426
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,0.2,0.36115741249664945,4.021545575489942
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,bar,0.65,0.6209883035950685,1.597492864170081
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,0.5,0.7115767575781092,4.411607639516249
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,0.35,0.45420809811014534,3.3985979785895117
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,0.5,0.5224689933841139,1.2460427843121413
+-MVRs2yYIq8_GyLIhbEH,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,bar,0.15,0.18953592235197578,2.02807127823499
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,bar,.95,0.9076900830459699,2.123001203592855
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,bar,.85,0.8858932467438965,1.8930999288057044
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,pie,.33,0.44652802176624806,3.5579984418051542
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,bar,.4,0.4351555664603987,1.864159057314861
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,.4,0.5038084202926952,3.393119891621612
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,bar,.65,0.5908454737348233,2.594656658418939
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,bar,.3,0.2954589162653356,-0.7880947376363302
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,.6,0.5714192669682342,1.576799429510194
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,pie,.25,0.32112986959670153,2.8555885084791517
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,.5,0.5229907415802324,1.2774338348570087
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,pie,.3,0.3688178782342575,2.8087532098141983
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,.9,0.9742742064745413,2.9169391207770055
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,.4,0.5467907403983677,3.8879223510284486
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,pie,.8,0.6960958760994221,3.3944335252161886
+-MVRsaQf9LmCYmrWpwEB,Bacherlors Degree (BA),Computer Science,Some Basic Statistics Training,Knowledgable,pie,.7,0.8315281926916448,3.7309463147720665
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,pie,0.75,0.687922674552102,2.662828150233104
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,pie,0.33,0.41408058503561934,3.093062939321171
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,bar,0.9,0.9543958373047338,2.4762737679906253
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,bar,0.5,0.5026445247549238,-1.3604808065353333
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,spiral,0.8,0.7394155562012998,2.62841069015232
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,pie,0.33,0.3778880330871092,2.29684011019772
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,bar,0.5,0.5495919535792312,2.3460194663169065
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,bar,0.33,0.35225156970923027,1.2327571200282246
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,bar,1,0.9884434324833589,0.35688384880254137
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,spiral,0.85,0.7698817405288779,3.0244661306854894
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,spiral,0.8,0.7756323233462239,1.357139639142987
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,pie,0.9,0.7340841687793094,4.063208084853443
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,spiral,0.75,0.8581056414076745,3.4509557425339104
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,pie,0.33,0.39496033289707433,2.7270563840428204
+-MVRsv7y7GAm_GFHxymb,Bachelors Degree (BS),Computer Science / Data Science ,Some Basic Statistics Training,Knowledgable,pie,0.5,0.5967417300565617,3.2926599991275687
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,pie,0.75,0.7801439135396858,1.6504848853190952
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,pie,0.25,0.3060885606127154,2.5195056886216536
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,spiral,.3,0.4243189812097671,3.6504082200908377
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,spiral,.4,0.5065846071107074,3.430748348066652
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,pie,.65,0.6549246489192702,-0.6955709852065829
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,pie,.9,0.8951237908484164,-0.7069334728408634
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,pie,.5,0.530220899150766,1.6540183982683627
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,spiral,.8,0.7839998979307242,0.7866048983778992
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,bar,.66,0.6127772748890686,2.2771731923353626
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,bar,.6,0.620027617348635,1.0893366079931337
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,bar,.85,0.8157179414858854,1.8291212721781889
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,spiral,.8,0.8816716683602673,3.051749143351218
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,pie,.3,0.44807174978171743,3.9003524145250945
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,spiral,.8,0.80720549656753,-0.24203861234237595
+-MVRtMJd1Boy7c3RgPhL,High School,Biomedical Engineering,Some Basic Statistics Training,No Formal Education,bar,.85,0.776846424906663,2.895371944525652
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,pie,.6666,0.7577682921198449,3.2081784289007174
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,pie,.7,0.8733111739182984,4.125660803772043
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,.6,0.8198859674596009,4.466861791481782
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,bar,.25,0.2605054868396624,0.23333428774659024
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,.5,0.6691960362665664,4.091243144790219
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,.333,0.525010548692158,4.27247525744898
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,pie,.3333,0.3777680450781682,2.1927637146562637
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,bar,.8,0.9178991063675077,3.574696226071445
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,.33333,0.656361766928582,5.019176003968757
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,bar,.6,0.6279328993125127,1.5451232217066628
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,spiral,.9,0.8823984694979223,0.9146816565508349
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,pie,.75,0.7362293574918704,0.586946525466504
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,pie,.7,0.6853204469055388,0.6717057924470984
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,pie,1,0.953311528830792,2.261183899980535
+-MVRuhHtXpcnwIq0Fk7r,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Knowledgable,bar,.6,0.5366153943115592,2.692306797853349
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,bar,.7,0.6174544470815794,3.066873681242255
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,bar,.5,0.4648677210387984,1.863235915255686
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,spiral,.7,0.6097386135711452,3.193951263860231
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,spiral,.5,0.4400664360854764,2.613144145667892
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,pie,.6,0.49366510272991987,3.4274036619749473
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,spiral,.8,0.8524203070126011,2.4241241408460286
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,spiral,.9,0.7807506650708118,3.5909532787118126
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,bar,.35,0.36658383806025624,0.8346172220108214
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,bar,.6,0.5263847570529792,2.904296086292926
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,pie,.45,0.5035857640206794,2.455117129425045
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,pie,.65,0.7323594538079908,3.0636660785596384
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,pie,.3,0.63408380938524,5.067526042300103
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,pie,.6,0.40026200616600893,4.32903741841346
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,spiral,.99,0.8864488213186498,3.389583037604102
+-MVRwXkiCOoNZM_mDaOP,Bachelors Degree (BS),Aerospace Engineering ,Some Basic Statistics Training,Passing Knowledge,bar,.8,0.8011612501143763,-2.0521467881795408
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,bar,0.33,0.33789710279337626,-0.12861323099894426
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,bar,0.8,0.7375628630542648,2.6710020170887727
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,spiral,0.25,0.4534226980019498,4.355246764009029
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,pie,0.5,0.5090405092948808,0.04131438544046983
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,pie,1,0.8409315520272774,4.0028685420105745
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,spiral,1,0.8900826409043081,3.4746613417302763
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,bar,0.9,0.8969188136387815,-1.2071658452199205
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,spiral,0.5,0.6104945992926522,3.482133201356434
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,bar,1,0.9861125148103793,0.5981255484004527
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,pie,1,0.8623956688870432,3.795500272964055
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,pie,0.25,0.23447905162573426,0.7459642736466839
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,bar,1,0.9635195897239158,1.9157277879310555
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,bar,0.85,0.825831823839836,1.345860515823406
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,pie,0.75,0.7254190632738394,1.3690999619105266
+-MVS0-lAsEV531TXNVzY,Bachelors Degree (BS),Software Engineering,Some Basic Statistics Training,Knowledgable,spiral,0.9,0.7847150082770012,3.5426913098987853
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,spiral,.3,0.7375396057201622,5.455457445711449
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,spiral,.6,0.6321731073047702,1.740845865200163
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,bar,.5,0.7016911774685588,4.342989717509697
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,pie,.4,0.9388407624474264,5.7551299679592365
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,spiral,.3,0.5491615371679942,4.646229127731428
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,bar,.1,0.7280560189380355,5.975689836383897
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,pie,.3,0.24747100591570495,2.427042770399121
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,spiral,0.26,0.6225942364808484,5.185249052587483
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,bar,.2,0.7093142327124079,5.6740205689899295
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,bar,.8,0.5929225917081417,4.380780752823287
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,pie,.4,0.6973380789824787,4.9000846624489816
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,pie,.5,0.28490471103287723,4.435263800543083
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,spiral,.4,0.7734493639111394,5.227661623440368
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,bar,.3,0.463515364799568,4.042341101465495
+-MVS00QEE-iFmdVyt-fU,Masters Degree,computer industry,Not familiar,No Formal Education,pie,.5,0.7674852319899099,4.748113570258019
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,pie,0.9,0.8910955921459744,0.022106112507650197
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,pie,0.8,0.8120891228898172,0.4156638056444478
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,bar,0.75,0.8042619026503927,2.47279714179783
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,bar,0.4,0.4812529194587179,3.0444451716504806
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,bar,0.35,0.38305595863771263,1.7784591813680009
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,bar,0.3,0.3595560051550384,2.6042138101750107
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,spiral,0.65,0.6618583590027596,0.39048709007818366
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,spiral,0.9,0.9776011441717259,2.9791316894342836
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,bar,0.75,0.5290229733007286,4.473962379273696
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,spiral,0.75,0.8011447940764719,2.3894234733434896
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,spiral,0.8,0.6567174402168839,3.8533226294554392
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,pie,0.8,0.6866433009658247,3.518619470403791
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,pie,0.55,0.6298610401237099,3.019898294809008
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,pie,0.75,0.5803991540868769,4.094665485713639
+-MVS08CufEYa7QlQPgeX,Bachelors Degree (BS),"cumpyewtur sighunce, babey !!!",Not familiar,Passing Knowledge,pie,1,0.9056407856497612,3.2571496648251927
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,spiral,.01,0.6953266744828358,6.101348939395514
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,spiral,.9,0.6641310083571763,4.567539312543414
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,bar,.9,0.7354930212630945,4.050997707168971
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,bar,.9,0.5988451857013687,4.918409202400957
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,spiral,.9,0.6227510715669464,4.799599871474954
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,pie,.9,0.6169891009539921,4.829143760445272
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,bar,.9,0.5547048139473353,5.114971572628979
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,pie,.9,0.9237067079813567,1.3194276420446784
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,pie,.9,0.5658464408936935,5.067826092906423
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,pie,.9,0.3637157329893963,5.7482848221856795
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,spiral,.9,0.5993764348954576,4.9158725212904955
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,bar,.9,0.3124122598324753,5.879798235384953
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,bar,.9,0.8455053702144679,2.4788328282624525
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,pie,.9,0.9305841803533362,1.6705766190858864
+-MVS1bCSo5RtNmAtUbMk,No Formal Stats Training,don't count -imo,Not familiar,No Formal Education,spiral,.9,0.4649985385699777,5.447088059205215
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,pie,0.3,0.8533857613110755,5.793468735070804
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,pie,1,0.8128995436849735,4.235347623381738
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,spiral,0.75,0.6342555853947521,3.5483677510750593
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,spiral,0.5,0.6274415354689771,3.68584526003473
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,spiral,1,0.5692762422854638,5.432871766616251
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,spiral,0.5,0.6825728382045462,4.200244113514239
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,bar,0.55,0.5027418710894789,2.2782265319637096
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,pie,1,0.7843898407425642,4.438693125669677
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,bar,0.8,0.740911905043662,2.5930691472563976
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,pie,0.9,0.9596320070625803,2.606015920134206
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,bar,0.8,0.8104722277106348,0.22924676785554857
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,spiral,1,0.7152707225304196,4.837838705614761
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,pie,0.7,0.638182021109197,2.6569077005955086
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,bar,0.5,0.4682393302404465,1.7229324099625716
+-MVS1bav29yGFbU1yi-W,Masters Degree,Kompooter science in a fareen lanGeege,Not familiar,Passing Knowledge,bar,0.6,0.6475516748370279,2.286930660853972
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,bar,0.8,0.8627307291051811,2.6776374330668347
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,bar,0.65,0.7173238080287364,2.777657639917496
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,pie,.1,0.17599012239942657,2.9493504504732577
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,bar,.2,0.2760010823309079,2.949555146123742
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,spiral,.5,0.4720763073318886,1.5446680073125256
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,spiral,.85,0.9288054962970045,3.0010004559360604
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,spiral,.75,0.7442895563225637,-0.5227488246127514
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,spiral,.8,0.9783546048743008,4.1667524346331914
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,bar,.45,0.4451806313767442,-0.7203816494894806
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,pie,0.5,0.5305269527137918,1.6679807824747177
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,pie,0.6,0.6210471919687326,1.1568620335596502
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,pie,0.65,0.5344575235176101,3.5458754368181458
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,bar,0.65,0.680797326783349,1.6802040199563082
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,spiral,0.8,0.8760484669114397,2.950439800939299
+-MVS2DWwRQxIFBWSQwn1,PhD/Doctorate,Professor :),A lot of statistics experience,Expert,bar,0.4,0.3695912281395695,1.6626052900539519
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,1,0.7796911414976749,4.4696181055833915
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,0.9,0.961728080076433,2.654849776742471
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,0.25,0.49597401170483824,4.627746967114895
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,pie,0.33,0.4890686443099809,4.00287030883541
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,pie,0.9,0.9909683005391225,3.2050530790401064
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,bar,0.6,0.694956167473567,3.2661293835828387
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,bar,0.33,0.36148451510457685,1.7108126084848987
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,0.25,0.3342266473861295,3.095530322898758
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,pie,1,0.9321900251316382,2.7878498091797685
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,0.5,0.5301499013492185,1.6507600265303772
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,bar,0.85,0.8789919963244855,1.5965533774020269
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,pie,0.5,0.5012784777959001,-1.983658985548337
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,bar,0.1,0.15201748169133775,2.4132550767072334
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,bar,1,0.9521237867675485,2.296493036945347
+-MVS53vjNcVYPr6Z9jZr,Masters Degree,Robotics Engineering,Some Basic Statistics Training,Passing Knowledge,pie,0.5,0.6165644540298694,3.5584446415090816
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,spiral,0.6,0.5759810337408212,1.3373666455544897
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,spiral,0.5,0.6728919213543169,4.122191641068358
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,bar,0.7,0.691374578025528,-0.018085699371384198
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,bar,0.56,0.527299622873412,1.7634276002619511
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,pie,0.33,0.46435761714607854,3.761366312522627
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,spiral,0.67,0.6316044571849292,1.9871586787905544
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,spiral,0.8,0.8879320287784649,3.156753019514323
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,spiral,0.5,0.5374272106240485,1.9514837523131794
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,pie,0.9,0.870071101891177,1.6405699427558103
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,bar,0.53,0.6395652698173145,3.470084786489735
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,pie,0.67,0.693856251069187,1.3280466177100523
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,spiral,0.56,0.7012625579662057,3.8330171476195587
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,pie,0.27,0.5333813582325947,4.725912122815773
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,pie,0.59,0.6847153241867435,3.2625132010320423
+-MVS5tp5Obo-h9yfkFn0,Bachelors Degree (BS),CS,A lot of statistics experience,Knowledgable,bar,0.6,0.5623470940782478,1.9598779239086228
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,spiral,0.7,0.6523074114185627,2.291090407809635
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,spiral,0.9,0.9705502465636378,2.843988798303572
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,bar,0.9,0.9526398120328823,2.4300125546307667
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,spiral,0.9,0.7733113790423458,3.6773799326281953
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,bar,0.7,0.6654068177660901,1.841698728614148
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,pie,0.8,0.6085398184145073,4.268360891403493
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,spiral,1,0.9394762720062887,2.6269933987785294
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,pie,0.5,0.4150003048568568,3.1085193574592966
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,spiral,0.45,0.8356465783497764,5.273876064765319
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,pie,1,0.9711303938223885,1.5907029064865554
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,bar,0.75,0.7510342808927378,-2.1301880284059984
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,bar,0.2,0.22088798975012092,1.146524223510457
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,pie,1,0.9816745114526372,0.9690483134454299
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,pie,0.6,0.6005096355113565,-2.5066514730794354
+-MVS7Q5HhzV3Nk8RItFe,Bachelors Degree (BS),CS,Some Basic Statistics Training,Passing Knowledge,spiral,0.4,0.5282041265417816,3.69436904889694
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,bar,.9,0.8144985290354199,3.1168882203458077
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,bar,.9,0.36481795917217397,5.745323506184336
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,spiral,.9,0.611763315939759,4.855425082887426
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,pie,.9,0.6593779852269411,4.596171950258389
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,spiral,.9,0.821946052645541,2.987392677870871
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,pie,.9,0.43022254707615987,5.557739241865282
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,bar,.9,0.6379019232424961,4.718899018352868
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,bar,.9,0.9238362565552982,1.3268972036272237
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,bar,.9,0.5982911270772713,4.921050054072166
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,pie,.9,0.5454198108406159,5.153117011065503
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,spiral,.9,0.5777482774697819,5.0157014889573475
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,bar,.9,0.6145992805424164,4.841221994913197
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,pie,.9,0.6352442778293782,4.7333853754197905
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,spiral,.9,0.7922614255017486,3.446104997057611
+-MVS7jex3w_jQGQJFw2k,No Formal Stats Training,yet another to not count -imo,Not familiar,No Formal Education,pie,.9,0.8220671578396143,2.985187851872991
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,spiral,0.4,0.3544129999052394,2.227648674323087
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,spiral,0.33,0.6061544776490003,4.793919169606816
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,bar,0.33,0.9455215740768363,5.946664370381224
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,spiral,0.4,0.8841565644880756,5.601121714069351
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,spiral,0.6,0.5761864757740306,1.3255892887958574
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,pie,0.44,0.30450765657431306,3.7733881497623316
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,spiral,0.6,0.6562249906323032,2.522934325802424
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,bar,0.5,0.3077429682213874,4.274314087757349
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,pie,0.46,0.8579414743364349,5.31900900377924
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,pie,0.33,0.7529152072146909,5.4065543813912775
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,bar,0.16,0.2492861698874947,3.1784942749842813
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,pie,0.33,0.4449268254861918,3.5382504089779623
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,spiral,0.66,0.5134859851501743,3.885223065868562
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,bar,0.8,0.6550340082595438,3.8700292033251054
+-MVSADe5TrOy-uBoflQb,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,bar,0.5,0.3885042701293648,3.4950008888015596
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,spiral,0.5,0.532258753490763,1.744538019990826
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,spiral,0.66,0.7254262514636128,2.7371729983424453
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,pie,0.75,0.6627312066340391,3.1459837853367447
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,pie,0.5,0.5933456590070274,3.2417739798360223
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,pie,0.33,0.31525116198364217,0.6779671270555081
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,spiral,0.33,0.4089959493137747,3.004428569151796
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,bar,0.6,0.5884176857315357,0.35978137951168787
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,spiral,0.5,0.5450699117685784,2.2116325052452077
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,pie,0.8,0.7547677331736651,2.2166804271625673
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,bar,0.9,0.9223416600375889,1.2382769380235428
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,spiral,0.75,0.786305172047709,1.9090116074399623
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,pie,0.66,0.37007610501356036,4.863809112299597
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,bar,0.5,0.4282129967865912,2.8686275712113694
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,bar,0.4,0.37645853390719103,1.30984359059699
+-MVSClOcx5gbJmk49MCC,Bachelors Degree (BS),CS/IMGD,Some Basic Statistics Training,Passing Knowledge,bar,0.97,0.9878476100434499,0.9333921045332122
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,spiral,0.6,0.6044900972201567,-0.8008529228208748
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,spiral,0.2,0.3515857711896481,3.9339103403431253
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,bar,0.5,0.533079201134468,1.7794362851206529
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,pie,0.65,0.5876332575384134,2.669406499591408
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,spiral,0.8,0.712882030767561,3.1435235302106497
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,bar,0.95,0.9515747053017841,-1.8238277342027234
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,pie,0.8,0.618836055131171,4.189144117285331
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,spiral,0.6,0.4579915162676772,3.8405486724464013
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,pie,0.97,0.9358631227044346,1.8232144571863667
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,spiral,0.4,0.41884016407582325,1.0064893465704525
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,pie,0.95,0.7859517209177384,4.0469997997207905
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,bar,0.5,0.5732922277822413,2.8980579363509587
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,pie,0.8,0.7144058016223687,3.1184294729841198
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,bar,0.85,0.8062688909490108,2.1693192325394097
+-MVSEkNYv3Hh07sQfCuR,Bachelors Degree (BS),Computer Science,Some Basic Statistics Training,Passing Knowledge,bar,0.6,0.5715884370657363,1.5685946186322013
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,spiral,0.85,0.7120087171098528,3.799515106296062
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,spiral,0.9,0.5714368310419099,5.043577099518498
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,bar,0.93,0.9047675813182504,1.4050348918133206
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,pie,0.8,0.8867395628759391,3.1373324046574687
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,spiral,0.65,0.5787141307030671,2.8586945904348733
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,bar,0.55,0.5846981885715029,1.8459190751221064
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,bar,0.28,0.28205708690455417,-1.5963671373166288
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,pie,0.68,0.7113632885914448,1.705459923924655
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,spiral,0.87,0.7623050956682792,3.445526813899429
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,pie,0.3,0.3813093028133918,3.0454307877196327
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,spiral,0.65,0.49857404052524873,3.932401006550374
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,pie,0.68,0.659837187290804,1.098474315344285
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,bar,0.95,0.8824880760076247,2.7816099126959175
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,bar,0.6,0.5950114807917506,-0.6807244671520433
+-MVSFOrtQPN0PcCF_VRp,Bachelors Degree (BS),Computer Science and Robotics Engineering,Some Basic Statistics Training,Knowledgable,pie,0.85,0.9075156695089481,2.554973588846409
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,bar,.23,0.7424677750608261,5.682904087880096
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,bar,.55,0.5243634593338338,1.4268841440237614
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,bar,0.1,0.7651686471940111,6.058356864495302
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,pie,.2,0.7420175375422251,5.763590937541614
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,spiral,.10,0.5379635700993415,5.456850723940366
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,spiral,.08,0.5581677115634984,5.583211303650832
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,bar,0.4,0.48092623526632244,3.038721237940246
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,pie,0.2,0.9067535767437566,6.145684743525361
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,bar,0.7,0.40958638876831355,4.8662334976803745
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,spiral,0.09,0.5306671861247184,5.4657041333703145
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,spiral,0.13,0.4223382504941803,4.875722327057023
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,spiral,0.09,0.5365229696109106,5.4846955355716
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,pie,0.2,0.7884919523904574,5.8820119214922535
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,bar,0.8,0.8745448185547068,2.9220992270120294
+-MVSFp6SSW36l1jfAviK,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,pie,0.25,0.7173947704650273,5.5504228788847625
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,pie,0.5,0.6065231764915205,3.4299262473931313
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,pie,0.125,0.1836591686153551,2.582776812758145
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,spiral,0.5,0.8507476522082736,5.137493901139774
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,bar,0.75,0.8563691752175928,3.427863250167076
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,bar,0.2,0.21480195758240256,0.6827492488870173
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,spiral,0.66,0.9414317530116687,4.821106855703473
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,pie,0.33,0.43198170427854526,3.3678142108131905
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,bar,0.5,0.4937091127533605,-0.4071938166160792
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,bar,0.66,0.5960277443192403,2.7053643368725124
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,spiral,0.5,0.5810459077001062,3.040820692037524
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,pie,0.2,0.2874462079652011,3.1488724262090533
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,spiral,0.33,0.6184058619802726,4.856267957080899
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,pie,0.2,0.421902516711385,4.479958172266107
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,pie,0.9,0.9337853975688172,1.8088132674975779
+-MVSOR0b_tmE-fdcpPMW,Bachelors Degree (BS),Business Admin/IT,Not familiar,Passing Knowledge,spiral,1,0.9707141796715727,1.6105026029298772
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,bar,0.28,0.2694408579793316,0.23990415123030537
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,bar,0.25,0.26465373092887373,0.669365253633603
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,pie,0.75,0.7391502325042238,0.2749793255235556
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,spiral,0.5,0.6282364250100159,3.6947289526656797
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,bar,0.7,0.6951306317249136,-0.7085453690023245
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,pie,0.75,0.5815958859714997,4.084524510002866
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,spiral,0.4,0.6307597824471535,4.536113731233573
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,pie,0.8,0.7611500420173839,2.003600725001814
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,bar,0.45,0.4450329649693903,-0.6857013869554619
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,pie,0.72,0.7214088987695669,-1.9110992433871141
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,spiral,0.75,0.9768782627965782,4.5117732880108
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,spiral,0.4,0.6729090581043425,4.776941235369896
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,bar,0.4,0.351930211670812,2.3021666079912375
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,spiral,0.35,0.4868059062872521,3.7871807052983475
+-MVSQ9z1J7RBMBwxKylJ,Masters Degree,Inteleesting stuff,Not familiar,Passing Knowledge,pie,0.35,0.4313575144717409,3.0462730237514455
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,.333,0.4025300640946514,2.8233430681914258
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,.7,0.6010030938206122,3.325485807791704
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,pie,.3,0.20885175320357174,3.2078654775926876
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,bar,.8,0.8173406702001641,0.8945787808558086
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,bar,0.51,0.4086353355223512,3.3591650135262845
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,pie,.75,0.6282472090466716,3.62061914580834
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,bar,.6,0.5040286036476836,3.281273855131383
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,.6,0.6787734860663941,3.0004234782355144
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,.9,0.7284412689034642,4.111104205857821
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,spiral,.8,0.6456161298786691,3.96008415867293
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,bar,.4,0.35449030826782274,2.2252654187933256
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,bar,.75,0.7661083199365237,0.7956273201015608
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,pie,.333,0.3568251568727989,1.326258726516459
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,pie,.55,0.5344639963775882,0.7472587972553365
+-MVSZdqtQi1HquErl-lX,Bacherlors Degree (BA),Civil Engineering,Some Basic Statistics Training,Passing Knowledge,pie,.9,0.8882212918797378,0.38169403855752454
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,pie,.5,0.622264872730043,3.626612865620326
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,pie,.25,0.3140867740080488,2.70789522371558
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,bar,.6,0.5740893313516857,1.4415189966567579
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,pie,.4,0.5487459120672227,3.9068512774704476
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,spiral,.4,0.4168878084650553,0.8590001500450932
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,pie,.5,0.48722997568946574,0.48748885096457045
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,pie,.6,0.6262238091698531,1.4580569500742429
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,spiral,.9,0.6623298614460936,4.578456558423536
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,spiral,.5,0.5176983900634189,0.9220752760380577
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,bar,.5,0.5094334389239117,0.09537611517911193
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,bar,0.24,0.25646479211936063,0.8249545357284714
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,pie,.75,0.8241754930452693,2.9150522220864628
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,spiral,0.75,0.7523005645529168,-1.4938796581749478
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,bar,.3,0.3691292302728281,2.8151497356328146
+-MVSbNceLHWL2E6lfyyO,Bachelors Degree (BS),electrical and computer engineering,Some Basic Statistics Training,Passing Knowledge,bar,.85,0.8039203535305457,2.2427441458525306
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,bar,.45,0.44173224401345973,-0.07130662731068274
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,bar,.85,0.7908050267041905,2.595622367551429
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,bar,.5,0.5039278049394096,-0.9495874784803767
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,spiral,.75,0.7952809211355062,2.218189747260061
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,pie,.60,0.6495610815210406,2.345143172429981
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,bar,.70,0.7225084398114794,1.248440099179667
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,spiral,.5,0.49853890525604483,-1.8830525633252175
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,bar,.45,0.48862685138035516,1.995551501078207
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,spiral,.8,0.6839470254317649,3.5521676925711794
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,spiral,.6,0.6185545350341628,0.9858308304128454
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,spiral,.9,0.9646034964183472,2.7192600408082623
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,pie,.4,0.3558206756638393,2.1836238485573443
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,pie,.9,0.9508341027388685,2.380843096120471
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,bar,.3,0.31208915095760165,0.4156668413171187
+-MVSc4FhLnrrNjj2hhy7,Bachelors Degree (BS),Accounting/Finance,Some Basic Statistics Training,Passing Knowledge,pie,.25,0.28196980920803316,1.7320437874660077
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,pie,0.73,0.8358850916297264,3.421359200820818
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,pie,0.3,0.47698460750762856,4.155705584564789
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,spiral,0.7,0.8853821167623964,4.222125369966827
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,pie,0.8,0.857903926779468,2.5644739412992648
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,bar,0.69,0.7030084600117709,0.5118181715885185
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,bar,0.43,0.5448244505579826,3.5369785467663086
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,pie,0.32,0.46622586664943344,3.8824069821495932
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,bar,0.95,0.8955472095586485,2.4777496014443465
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,spiral,0.24,0.4920523735600911,4.662788690719178
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,spiral,0.24,0.4836938856716521,4.614379374173846
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,pie,0.8,0.7956247493346715,-0.830010709567681
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,pie,0.55,0.6421415731981218,3.2232923801946183
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,bar,0.4,0.4179341101329766,0.9399118461751923
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,bar,0.8,0.7944937899285408,-0.565713908201482
+-MVTEmAG5iqxsayBGoAQ,Bachelors Degree (BS),Computer Science,A lot of statistics experience,Knowledgable,spiral,0.5,0.6295171534879916,3.7089283004713804
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,pie,.8,0.6241006189283703,4.146894519833002
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,pie,.95,0.884681507193204,2.734839504221579
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,spiral,.7,0.9143388738486021,4.430210820020282
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,spiral,.6,0.722199376334187,3.6258476428962187
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,spiral,.55,0.7908404418205803,4.597474215074012
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,spiral,.5,0.5570287465301598,2.5429698479897676
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,bar,.6,0.6551201465862614,2.4949313191022835
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,bar,.3,0.334630132457227,1.843185216205663
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,pie,.8,0.7278437551246959,2.875902802406249
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,pie,.33,0.29823458344766907,1.723139848409842
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,bar,.45,0.46024935971133873,0.20155353360503925
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,spiral,.8,0.47013860464780544,5.04924475749543
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,pie,.25,0.24474789940126587,-0.6210222177006649
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,bar,.8,0.8101341077844745,0.18702122644564864
+-MVTVlyuXT00eY5UIRkn,Bacherlors Degree (BA),Algebraic Number Theory Research,A lot of statistics experience,Knowledgable,bar,.4,0.44553712058882855,2.2261114439142307
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,spiral,0.25,0.8249641077858952,5.848533078161242
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,spiral,0.9,0.4599030288530639,5.4638413917925
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,pie,0.7,0.6887150515365151,0.32595606464990307
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,bar,0.5,0.4824809236730707,0.9083576532935731
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,pie,0.3,0.3296802174041655,1.6290169739641671
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,pie,0.4,0.344378016928891,2.507718110549589
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,bar,0.75,0.7256021738918046,1.3588365491915508
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,pie,0.125,0.1703038307754405,2.218899887726909
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,bar,0.5,0.49339947542041374,-0.3491390353949728
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,spiral,0.4,0.6878132830020418,4.853313463318512
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,spiral,0.4,0.8306728631807809,5.432701780324452
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,bar,0.55,0.6345155540225803,3.1003983351494857
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,pie,0.5,0.4533343357666821,2.2604973682249834
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,spiral,0.9,0.6552344509848698,4.6206775965417135
+-MVTZfcmW3g3Jt2lefnm,Bachelors Degree (BS),Neuroscience,Some Basic Statistics Training,Passing Knowledge,spiral,0.45,0.4576171156879704,-0.1734631966030488
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,spiral,0.3,0.8292388518427481,5.729250528289087
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,spiral,.4,0.9122756246983483,5.682364363062493
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,bar,0.7,0.6118795566202642,3.159797781745764
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,pie,.9,0.9402339256924007,2.0525524252257124
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,bar,.95,0.9504193874422718,-2.5826092712979936
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,spiral,.5,0.5177632795843616,0.9270074026866334
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,bar,.2,0.17809751431260554,1.2111670918166655
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,spiral,.5,0.5237285270100993,1.320688403371737
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,spiral,.4,0.4371226073203996,1.9400767957046658
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,pie,.7,0.6814955345616694,0.9821788070898685
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,bar,.5,0.5465785940728115,2.2578733837558764
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,pie,.5,0.45645653296349986,2.1632883358249235
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,pie,.5,0.5690697563354845,2.813930071417079
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,bar,.75,0.5795937844839677,4.101450191808569
+-MVTv73-1anXnChfp_kO,No Formal Stats Training,neuroscience,Some Basic Statistics Training,No Formal Education,pie,.6,0.6600966943929644,2.616985607761673
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,bar,0.45,0.577007043140306,3.680966147422163
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,bar,0.25,0.24281931993228295,-0.2462790828481234
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,pie,0.5,0.5887038411277428,3.1691848874537283
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,pie,1,0.986736483712319,0.5373970932312174
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,bar,0.9,0.9396187089949498,2.0309966706646376
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,bar,0.85,0.8423073232337659,-0.16122136422219369
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,spiral,1,0.9577636564872873,2.1205624069429585
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,spiral,0.5,0.6277512454885474,3.6893130896171056
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,spiral,1,0.904998591088866,3.266807658764815
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,bar,0.75,0.7325254997036938,0.9049272177675712
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,pie,0.83,0.8883061297079654,2.57425000253402
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,pie,1,0.8697953141356884,3.7164936644029556
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,spiral,0.6,0.43569401671670904,4.049247246348018
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,spiral,0.55,0.6837455031750495,3.7548394454589653
+-MVTvbptoHUXGzc8i41l,PhD/Doctorate,Pharmacy,Some Basic Statistics Training,No Formal Education,pie,0.65,0.6145392541357989,1.8762024264410773
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,pie,0.1,0.9462459441885119,6.405134558932071
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,pie,0.1,0.6206507189065583,5.705703484127289
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,bar,.15,0.5992278735084079,5.493384340629521
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,pie,.25,0.23316190970920989,0.855040098758361
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,spiral,.1,0.9757457058767357,6.454497873560215
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,pie,.2,0.6882040309010846,5.613101464409342
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,bar,.2,0.3208046058680552,3.6094548327563265
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,bar,.3,0.5211569470730932,4.475129947478314
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,spiral,.1,0.9316805270283297,6.380124263357533
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,pie,.3,0.4968886068942249,4.308438108623963
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,pie,.25,0.28428624912985667,1.8292914121676378
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,spiral,.15,0.40076582924477544,4.655442447881319
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,bar,.2,0.721037645273893,5.706772672017217
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,spiral,.1,0.6721242449064537,5.841405197267967
+-MVTxFnkj3Du5obNiuwP,Bacherlors Degree (BA),Biology/research,Some Basic Statistics Training,Knowledgable,spiral,0.05,0.7351004723402007,6.100873545325077
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,spiral,.5,0.649168797245887,3.9109129610976923
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,spiral,1,0.9538752350766974,2.244118784553872
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,spiral,0.75,0.7498926576678606,-2.881143469492191
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,pie,.8,0.794896792874602,-0.6544430406607654
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,bar,.75,0.6756704354032743,2.91799620745797
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,pie,.5,0.570487113415887,2.8427196947745377
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,bar,.75,0.7128796830659768,1.9399906814706835
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,bar,.75,0.7014277531431237,2.31679008493041
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,bar,.66,0.6826643818035235,1.2578784975538486
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,pie,1,0.8809165970181212,3.5889652663056504
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,bar,.95,0.9505845253330674,-2.4465212679033677
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,spiral,.5,0.6998894318108817,4.33012403332534
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,spiral,.5,0.5678133890575819,2.787921131419794
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,pie,.5,0.4018119470522921,3.3137980478969657
+-MVUGI9MSsJZB8mZ1UHt,Bacherlors Degree (BA),Physics and Philosophy,A lot of statistics experience,Knowledgable,pie,.75,0.7365672269745474,0.5541244649291105
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,bar,0.4,0.39457722051478533,-0.5836402668709733
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,bar,0.6,0.5370269745696387,2.6830906294138686
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,pie,0.1,0.2556986532291862,3.972220744145648
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,pie,0.2,0.40713178251843796,4.381157252450431
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,spiral,0.4,0.4919092531616105,3.21969907380855
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,pie,0.8,0.6827427935408514,3.5669028874012407
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,bar,0.3,0.33175750831070194,1.7227942356985446
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,pie,0.5,0.4980339023689293,-1.6366168918146788
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,spiral,0.5,0.5454437503179695,2.223229466666405
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,spiral,0.8,0.8737180835578054,2.906276522367337
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,bar,0.8,0.7624691902769467,1.9553429264781719
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,pie,0.34,0.41804530396454875,2.987235429010379
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,spiral,0.45,0.8063432413104431,5.160247564014709
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,bar,0.78,0.7179583128860275,2.6620160249773868
+-MVUtJRShroFtL9Y4wgb,Masters Degree,computer science,Not familiar,Passing Knowledge,spiral,0.53,0.5744224361842932,2.1913237456448846
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,spiral,0.6,0.49576278443981775,3.398996258127535
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,spiral,.9,0.9292498972313742,1.608804381559568
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,spiral,.8,0.8988986617835765,3.3240712384434086
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,bar,.34,0.35976404508283133,1.0713538992419773
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,bar,.72,0.6600025551725739,2.614649657801826
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,pie,.3,0.40054248892476163,3.3475592064897786
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,spiral,.4,0.6044897379219513,4.362748567243455
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,bar,.6,0.6735037537968865,2.902146026777998
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,bar,.4,0.48531917051579887,3.1138533360048566
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,pie,.5,0.5241323033307003,1.3438229932531065
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,pie,.6,0.6597759986757757,2.6094239995566153
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,spiral,.34,0.8181613311955709,5.58319210330383
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,bar,.4,0.4456136406747194,2.22846903655995
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,pie,.6,0.8246490333921116,4.497606192429379
+-MVXwoAOf3rOYSWomCWi,Masters Degree,Digital Reconstruction,I use statistics everyday,Expert,spiral,.7,0.7952584308218807,3.270654979413131
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,bar,.85,0.8841523319048441,1.8238443918549798
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,bar,0.9,0.9136240893925517,0.5728013478113109
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,spiral,0.4,0.46218237974131565,2.665219467609737
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,bar,0.3,0.31355394304852957,0.5659814906452593
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,pie,0.9,0.8338589165574165,2.752557720129053
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,spiral,0.9,0.8261992589344295,2.907866317366884
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,bar,0.7,0.7277121253958133,1.534167478991778
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,pie,0.6,0.5493944818237463,2.3744975208015844
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,pie,0.85,0.8640480442940399,0.6133472301968719
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,bar,0.95,0.9701696905516091,1.0989376377499833
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,spiral,0.8,0.9221651421381896,3.625447508398021
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,bar,0.7,0.7595734087443742,2.6046266720214155
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,pie,0.9,0.9092638926835036,0.07229691434549308
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,spiral,0.9,0.9808321813210772,3.037069070848536
+-MVYNatRS-pC4FeEnI15,Masters Degree,Computer Science,Some Basic Statistics Training,Passing Knowledge,spiral,0.6,0.624000226978925,1.3362963565732486
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,pie,.33,0.3712763018120507,2.0883554002400544
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,pie,.90,0.877165173937792,1.2681245049879564
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,bar,.20,0.21884137540699397,1.006576330867018
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,pie,.3,0.2914251133112023,-0.025487326137216618
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,spiral,.75,0.8703879354164967,3.604521329442868
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,spiral,.5,0.6392236482066762,3.812227612043664
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,bar,.5,0.4674748115455359,1.755963819338148
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,pie,.66,0.4709640659696752,4.250097016169793
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,pie,.9,0.6878816897739096,4.41527401577978
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,bar,.75,0.7648073701023662,0.6832356256720388
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,spiral,.6,0.7323927517220978,3.7403096882621822
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,bar,.33,0.37712635632339,2.274302110530383
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,pie,.5,0.5242529692917164,1.3506652287721992
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,bar,.45,0.4476572859442726,-1.4768539791410098
+-MVYpd0NoB3UiW3wFBjz,Bachelors Degree (BS),Registered nurse ,Some Basic Statistics Training,No Formal Education,spiral,.9,0.9150123810763447,0.7015385068311593
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,bar,0.9,0.8991793255539053,-2.271827345734683
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,bar,0.6,0.6087272916022792,-0.0032798547011267934
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,spiral,0.65,0.6664257057889025,0.8217678228321349
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,spiral,0.5,0.5847869391742654,3.104956200764511
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,spiral,0.55,0.7238414342417736,4.130036601393322
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,bar,0.5,0.5117745573188973,0.38123433874679397
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,bar,0.75,0.6892318701553894,2.632690022168116
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,spiral,0.95,0.9215382364008952,1.5710342416650553
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,pie,0.3,0.24824475725922027,2.406135063488105
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,bar,0.2,0.20574633804826517,-0.5153280959689565
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,pie,0.5,0.5976171078297177,3.3054906295412776
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,spiral,0.8,0.9284380802713013,3.6969739813872957
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,pie,0.8,0.7673895447905847,1.7596013685067817
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,bar,0.3,0.29573170359606843,-0.8577051447207112
+-MVYt47_P7eNay6r41OW,Bachelors Degree (BS),Computer Science,I use statistics everyday,Knowledgable,pie,0.7,0.6652286522689134,1.8488521603830181
