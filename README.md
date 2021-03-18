@@ -1,6 +1,7 @@
 # Assignment 3: Experiment
 
 Imogen Cleaver-Stigum, Andrew Nolan, Matthew St. Louis, and Jyalu Wu
+
 [Published Site](https://cs573-a3.web.app)  
 
 ## Experiment
@@ -24,10 +25,7 @@ We decided to test 3 types of hypotheses: some regarding how the type of visuali
 - Users who are more familiar with vis will have more accurate perceptions of relative bar/sector sizes overall.
 - Users with a higher education level will have more accurate perceptions of relative bar/sector sizes overall. 
 - Users who are in the fields of data science and math will have more accurate perceptions of relative bar/sector sizes overall. We hypothesize this because these individuals might be more accustomed to looking at different kinds of visualizations.
-- Users who have more statistics experience will have more accurate perceptions of relative bar/sector sizes overall. 
-
-#### Hypothesis about Distance 
-- Users will have more accurate perceptions in all 3 charts when the two bars/sectors they are comparing are closer together in space. For example, comparing two bars right next to each other or with only one bar between them would result in more accurate perceptions compared to examining two bars that are on opposite sides of the chart. 
+- Users who have more statistics experience will have more accurate perceptions of relative bar/sector sizes overall.  
 
 
 ## Design & Setup
@@ -61,7 +59,6 @@ Overall, we conclude that the bar charts appear better than pie charts, and pie 
 ### Demographic Information
 The following figures show the results of our experiment broken down by each of the tested demographics. For each axis of comparison, the points shown aggregate all responses for that group across all three visualization types (bar chart, pie chart, spiral histogram). We discuss how comparison reflects on its respective hypothesis.
 
-
 ![A plot showing confidence intervals for the log error of the vis perceptions by categories of the participant’s experience with statistics](img/ciByStatsExperience.png)
 
 This figure compares log error between different levels of statistics experience. Our initial hypothesis for statistics experience was that log error would decrease as statistics experience increases. The figure shows that this trend is weak at best. Those with the least statistics experience did worst as a group, but the mean for basic statistics training was better than that for a lot of statistics experience. The basic statistics training group had the smallest error bars, but this was likely due to the fact that the category consisted of roughly three times as many trails as the others. Overall, the data do not support our hypothesis.
@@ -78,6 +75,7 @@ There are some limitations on our field hypothesis results. The sample was not r
 ![A plot showing confidence intervals for the log error of the vis perceptions by categories of the participant’s experience with vis](img/ciByvisExperience.png)
 
 Our initial hypothesis was that users who are more familiar with reading visualizations would have more accurate perceptions of relative section sizes and thus the log error would be lower. Based on our results, people who self-reported as experts with visualizations did better than others on average. This is in line with our hypothesis, however only one participant self-identified as an expert so this may have skewed the data. In addition, those passing knowledge did somewhat better than those who were knowledgeable about visualizations, and those with no formal education did only slightly worse than the knowledgeable group on average. These results contradict our hypothesis, and thus the outcomes of our experiment do not strongly support our hypothesis.
+
 ![A plot showing confidence intervals for the log error of the vis perceptions by categories of the participant’s education level](img/ciByEducation.png)
 
 The confidence intervals in the graph above show the average log error for our survey participants based on self-reported education level. Our initial hypothesis stated that users with higher education levels would perform better in this experiment. Based on our results, this hypothesis is not true. Participants with (or currently pursuing) a PhD or other doctorate degree did perform better, on average, than other college degrees. However, participants who self-reported their highest education level as high school performed better on average than all other education levels. Additionally, the worst performing education level, according to our experiment, was Masters students. These results defy our initial hypothesis. Based on the results we can assume that there is no correlation between education level and performance when analyzing graphs. There are limitations to our results. The vast majority of participants identified as Bachelors (BS) students, followed by masters students. If future work were to be done on this hypothesis, it would benefit the study to have more participants at the extremes with PhDs or with only high school education. We only received two participants in both of these categories.
@@ -89,7 +87,7 @@ The confidence intervals in the graph above show the average log error for our s
 - __Firebase Realtime Database__: Firebase Realtime Database is a free to use NoSQL cloud database. We downloaded the keys and used the Firebase API in our React code to upload the results of the survey to the database. NoSQL and JSON complement each other very nicely so we were able to store our survey results as an object in the React state and then insert that directly into the real time database. When we were ready to analyze our data, we exported the database as a JSON file.
 - __Firebase Hosting__: We used Google’s Firebase Hosting platform to host our React application. Firebase Once we built the React app with the npm run build command we were able to use the Firebase command line tool to upload the optimized production version of the React app. Firebase then publishes the app to a custom URL based on our project name. For this assignment, it provided us with the custom URL: https://cs573-a3.web.app/.
 - __Demographics__: We designed a form to collect demographic data on participants’ visualization expertise, and we designed our database structure to store these records with each data submission. This involved learning how to use forms in Angular and managing data between components. We used this data to search for correlations between experience and accuracy within our results.
-- distance hypothesis? If we’re still doing that
+
 ## Design Achievements
 - __Spirals__: The spiral barcharts are a design achievement because they are a more complicated type of chart and getting them to look like spirals required some work. They are made by drawing a “path” on the svg that is a spiral, placing bars at even intervals along the path with one corner touching the path, and rotating the bars to align better with the curve. The spiral barcharts had to have more data points than the other chart types in order to look like spirals. For example, a spiral barchart with only 10 data points looked more like a jumble of randomly placed/oriented bars than a spiral. With 14 bars, the spiral barcharts looked like spirals, and with 17, they looked more presentable. 17 bars was also the maximum we could make without the random data generation taking too long, so this is the number of bars we chose to include. 
 - __We doodled our faces!__ Another design achievement is the set of drawings of us on the Welcome page of the experiment app. They make the Welcome page much more visually appealing! They also make the app more personal, which is useful when all of the people participating in the experiment are people we know.
