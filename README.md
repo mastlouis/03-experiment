@@ -1,6 +1,7 @@
 # Assignment 3: Experiment
 
 Imogen Cleaver-Stigum, Andrew Nolan, Matthew St. Louis, and Jyalu Wu
+
 [Published Site](https://cs573-a3.web.app)  
 
 ## Experiment
@@ -34,12 +35,23 @@ We decided to test 3 types of hypotheses: some regarding how the type of visuali
 ### Runthrough or tour of our survey/website
 The interface we designed walks the user through our experiment in steps. The landing view is a welcome screen explaining a bit about the experiment and the class it is for.
 
+![Site - Welcome Page](img/site_welcome.png)
+
 When the user presses the “Get Started” button to advance, they will see a screen for the survey. The user will answer questions about their level of education, formal statistics training, familiarity with data visualization, and field of study. Once all questions have a valid response, the user can activate the “Submit” button to continue to the experiment (Described in the “[Our Charts](#our-charts)” section). 
 
+![Site - Survey Page](img/site_survey.png)
+
 When the user has completed the experiment, they will be presented with the following Thank You view, inviting them to submit more data if they wish to. This allows them to answer more questions about the visualizations without re-entering the survey information. 
+
+![Site - Thank You Page](img/site_thanks.png)
 ### Our Charts
 During the experiment, the user is presented with fifteen visualizations. Five of these are bar charts, five of these are pie charts, and five of these are spiral histograms. Their ordering is random. Each has two sections marked, and the user’s task is to answer what portion of the larger marked section is represented by the smaller marked section. The marked areas are randomly generated, though they are always guaranteed to be separated by at least one unmarked area.
 
+![Site - Bar Chart](img/site_bar.png)
+
+![Site - Pie Chart](img/site_pie.png)
+
+![Site - Spiral Histogram](img/site_spiral.png)
 
 ## Results
 
@@ -68,16 +80,16 @@ This figure compares log error between different levels of statistics experience
 
 ![A plot showing confidence intervals for the log error of the vis perceptions by categories of the participant’s field](img/ciByField.png)
 
-Our initial hypothesis for fields presumed mathematicians and data scientists would perform the best in this experiment. Unfortunately, no one taking the survey self-identified as a data scientist. However, we did receive responses from mathematicians. The math field did perform in the upper echelon, only being beaten by the physics and philosophy combination. However, it should be noted only one person identified as physics and philosophy so the confidence interval is very large. Although our results do not completely match our hypothesis, with more data points it is plausible that math would be the highest and they did perform better than most categories. So the hypothesis is mostly correct.
+Our initial hypothesis for fields presumed mathematicians and data scientists would perform the best in this experiment. Unfortunately, no one taking the survey self-identified as a data scientist. However, we did receive responses from mathematicians. The math field did perform in the upper echelon, only being beaten by the physics and philosophy combination. However, it should be noted only one person identified as physics and philosophy, so the confidence interval is very large. Although our results do not completely match our hypothesis, with more data points it is plausible that math would be the highest and they did perform better than most categories. So the hypothesis is mostly correct.
 
 The combination of Physics and Philosophy, on average, performing the best does have an interesting correlation with data from other sources. According to GRE results from 2012, Physics and Philosophy are the two highest performing majors on the exam [14]. With physics receiving the highest average score for quantitative reasoning, and philosophy receiving the highest scores in analytical and verbal reasoning. This may imply that the reasoning skills tested on the GRE are associated with visualization comprehension.
 
-There are some limitations on our field hypothesis results. The sample was not representative of all disciplines. The largest field reported in our testing demographic was technology, unsurprisingly a disproportionately large number of our sample was computer science majors. As we primarily solicited responses from WPI students, humanities fields are unrepresented in our data. Future work would benefit from seeking a larger sample size from a more diverse population.
+There are some limitations on our field hypothesis results. The sample was not representative of all disciplines. The largest field reported in our testing demographic was technology; unsurprisingly a disproportionately large number of our sample was computer science majors. As we primarily solicited responses from WPI students, humanities fields are unrepresented in our data. Future work would benefit from seeking a larger sample size from a more diverse population.
 
 
 ![A plot showing confidence intervals for the log error of the vis perceptions by categories of the participant’s experience with vis](img/ciByvisExperience.png)
 
-Our initial hypothesis was that users who are more familiar with reading visualizations would have more accurate perceptions of relative section sizes and thus the log error would be lower. Based on our results, people who self-reported as experts with visualizations did better than others on average. This is in line with our hypothesis, however only one participant self-identified as an expert so this may have skewed the data. In addition, those passing knowledge did somewhat better than those who were knowledgeable about visualizations, and those with no formal education did only slightly worse than the knowledgeable group on average. These results contradict our hypothesis, and thus the outcomes of our experiment do not strongly support our hypothesis.
+Our initial hypothesis was that users who are more familiar with reading visualizations would have more accurate perceptions of relative section sizes and thus the log error would be lower. Based on our results, people who self-reported as experts with visualizations did better than others on average. This is in line with our hypothesis, however only one participant self-identified as an expert, so this may have skewed the data. In addition, those passing knowledge did somewhat better than those who were knowledgeable about visualizations, and those with no formal education did only slightly worse than the knowledgeable group on average. These results contradict our hypothesis, and thus the outcomes of our experiment do not strongly support our hypothesis.
 ![A plot showing confidence intervals for the log error of the vis perceptions by categories of the participant’s education level](img/ciByEducation.png)
 
 The confidence intervals in the graph above show the average log error for our survey participants based on self-reported education level. Our initial hypothesis stated that users with higher education levels would perform better in this experiment. Based on our results, this hypothesis is not true. Participants with (or currently pursuing) a PhD or other doctorate degree did perform better, on average, than other college degrees. However, participants who self-reported their highest education level as high school performed better on average than all other education levels. Additionally, the worst performing education level, according to our experiment, was Masters students. These results defy our initial hypothesis. Based on the results we can assume that there is no correlation between education level and performance when analyzing graphs. There are limitations to our results. The vast majority of participants identified as Bachelors (BS) students, followed by masters students. If future work were to be done on this hypothesis, it would benefit the study to have more participants at the extremes with PhDs or with only high school education. We only received two participants in both of these categories.
@@ -94,7 +106,7 @@ The confidence intervals in the graph above show the average log error for our s
 - __Spirals__: The spiral barcharts are a design achievement because they are a more complicated type of chart and getting them to look like spirals required some work. They are made by drawing a “path” on the svg that is a spiral, placing bars at even intervals along the path with one corner touching the path, and rotating the bars to align better with the curve. The spiral barcharts had to have more data points than the other chart types in order to look like spirals. For example, a spiral barchart with only 10 data points looked more like a jumble of randomly placed/oriented bars than a spiral. With 14 bars, the spiral barcharts looked like spirals, and with 17, they looked more presentable. 17 bars was also the maximum we could make without the random data generation taking too long, so this is the number of bars we chose to include. 
 - __We doodled our faces!__ Another design achievement is the set of drawings of us on the Welcome page of the experiment app. They make the Welcome page much more visually appealing! They also make the app more personal, which is useful when all of the people participating in the experiment are people we know.
 - __Styled with Foundation__: We styled the frontend using [Foundation](https://get.foundation/sites). Nobody in the group had previous experience with this styling library, but we wanted to try something new. We successfully used it to give our site a modern look with a consistent feel.
-- __Demographic questions__: The demographic questions are an extra element of experiment design that adds to the kind of results we can analyze. They enabled us to look not only at how the vis’ themselves influence perceptions, but also how different experience and exposure might affect people’s perceptions. They are also a design achievement because we added a tab on the app for the “survey” where participants are asked the demographic questions (familiarity with vis, occupation/field, education level, and statistics experience). 
+- __Demographic questions__: The demographic questions are an extra element of experiment design that adds to the kind of results we can analyze. They enabled us to look not only at how the vis-es themselves influence perceptions, but also how different experience and exposure might affect people’s perceptions. They are also a design achievement because we added a tab on the app for the “survey” where participants are asked the demographic questions (familiarity with vis, occupation/field, education level, and statistics experience). 
 
 
 ## Sources
